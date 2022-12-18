@@ -1,0 +1,35 @@
+.R_header{
+    height: 3%;
+    background-color: #91cae6;
+    /*padding: 1% 0 1% 1%;*/
+    display: flex;
+    margin-top: 2%;
+}
+.R-Menupic{
+    height: 6%;
+    width: 6%;
+    overflow: hidden;
+    background-color: #91cae6;
+    z-index: 1;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.R-imgmenu{
+    height: 100%;
+    width: 100%;
+    background-color: #91cae6;
+}
+.R-title{
+    text-align: center;
+    height: 100%;
+    width: 20%;
+    margin: 0 35%;
+    overflow: hidden;
+    background-color: #91cae6;
+}
+.R-titlepic{
+    height: 100%;
+    width: 100%;
+    background-color: #91cae6;
+}
+

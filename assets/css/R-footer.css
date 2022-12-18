@@ -1,0 +1,52 @@
+
+.R-footer{
+    height: 3%;
+    width: 98%;
+    background-color: #91cae6;
+    display: flex;
+    margin:20% 1% 0 1%;
+    border-radius: 3%;
+    overflow: hidden;
+}
+/*底下左邊的洗衣*/
+.R-foot-cpic{
+    margin: 1% 12%;
+    z-index: 1;
+    height: 10%;
+    width: 10%;
+    overflow: hidden;
+    background-color: #91cae6;
+}
+.R-cpic{
+    background-color: #91cae6;
+    height: 100%;
+    width: 100%;
+}
+/*底下中間的會員*/
+.R-foot-peopic{
+    margin: 1.3% 12%;
+    height: 10%;
+    width: 10%;
+    overflow: hidden;
+    background-color: #91cae6;
+    z-index: 1;
+}
+.R-peopic{
+    background-color: #91cae6;
+    height: 100%;
+    width: 100%;
+}
+/*底下的地圖圖標(實體店面)*/
+.R-foot-mappic{
+    margin: 1% 12%;
+    z-index: 1;
+    height: 10%;
+    width: 10%;
+    overflow: hidden;
+    background-color: #91cae6;
+}
+.R-mappic{
+    height: 100%;
+    width: 100%;
+    background-color: #91cae6;
+}
