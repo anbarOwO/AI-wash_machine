@@ -1,0 +1,66 @@
+.t-inmember{
+    background-color: rgb(196, 236, 236);
+    width: 100%;
+    margin-top: 50px;
+    /*margin-left: 35px;*/
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.t-inmember>h2{
+    font-size: 50px;
+    margin: 10px 0 0 0px;
+    text-align: center;
+
+}
+.t-inmemberbox{
+    background-color: rgb(255, 255, 255);
+    width: 85%;
+    margin-top: 50px;
+    margin-left: 7%;
+    height: 150px;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+.t-inmemberbox>h3{
+    font-size: 30px;
+    margin: 5px 0 0 55px;
+}
+.t-inmemberbox>p{
+    font-size: 25px;
+    margin: 20px 0 0 55px;
+}
+.t-inmemberbox input[type="text"] {
+    display: block;
+    background-color: rgb(255, 243, 138);
+    width: 80%;
+    height: 50px;
+    margin: 2% 0px 0px 7%;
+    border-radius: 10px;
+    font-size: 25px;
+}
+.t-btnbox{
+    width: 100%;
+    margin-top: 50px;
+    /*margin-left: 35px;*/
+    height: auto;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+.t-btn{
+    background-color: #63a5a5;
+    color: white;
+    cursor: pointer;
+    border: none;
+    width: 50%;
+    height: 70px;
+    margin-top: 2%;
+    margin-left: 23%;
+    font-size: 35px;
+    border-radius: 10px;
+}
+.t-btn:hover {
+    background-color: #ffffff;
+    color: rgb(5, 5, 5);
+    transition: 0.5s;
+}
