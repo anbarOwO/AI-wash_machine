@@ -1,4 +1,4 @@
-.t-inpayway{
+.t-inmember{
     background-color: rgb(196, 236, 236);
     width: 100%;
     margin-top: 50px;
@@ -7,13 +7,13 @@
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.t-inpayway>h2{
+.t-inmember>h2{
     font-size: 50px;
     margin: 10px 0 0 0px;
     text-align: center;
 
 }
-.t-inpaywaybox{
+.t-inmemberbox{
     background-color: rgb(255, 255, 255);
     width: 85%;
     margin-top: 50px;
@@ -22,15 +22,15 @@
     padding-top: 10px;
     border-radius: 20px;
 }
-.t-inpaywaybox>h3{
+.t-inmemberbox>h3{
     font-size: 33px;
     margin: 5px 0 0 55px;
 }
-.t-inpaywaybox>p{
+.t-inmemberbox>p{
     font-size: 30px;
     margin: 20px 0 0 55px;
 }
-.t-inpaywaybox input[type="text"] {
+.t-inmemberbox input[type="text"] {
     display: block;
     background-color: rgb(255, 243, 138);
     width: 80%;
