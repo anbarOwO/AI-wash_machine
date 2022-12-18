@@ -24,20 +24,21 @@
 }
 .t-inmemberbox>h3{
     font-size: 30px;
+    font-size: 33px;
     margin: 5px 0 0 55px;
 }
 .t-inmemberbox>p{
-    font-size: 25px;
+    font-size: 30px;
     margin: 20px 0 0 55px;
 }
 .t-inmemberbox input[type="text"] {
     display: block;
     background-color: rgb(255, 243, 138);
     width: 80%;
-    height: 50px;
-    margin: 2% 0px 0px 7%;
+    height: 60px;
+    margin: 1% 0px 0px 7%;
     border-radius: 10px;
-    font-size: 25px;
+    font-size: 30px;
 }
 .t-btnbox{
     width: 100%;
