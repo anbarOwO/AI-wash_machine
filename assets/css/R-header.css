@@ -1,17 +1,18 @@
 .R_header{
-    height: 3%;
+    height: 90px;
     background-color: #91cae6;
     /*padding: 1% 0 1% 1%;*/
     display: flex;
-    margin-top: 2%;
+    margin-top: 1%;
+
 }
 .R-Menupic{
-    height: 6%;
+    height: 70px;
     width: 6%;
     overflow: hidden;
     background-color: #91cae6;
     z-index: 1;
-    margin-top: 1%;
+    margin-top: 0.7%;
     margin-left: 1%;
 }
 .R-imgmenu{
