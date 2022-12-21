@@ -1,15 +1,21 @@
+body {
+    background-color: #cae5f7;
+}
+
 .t-allbox {
-    background-color: rgb(196, 236, 236);
+    /*background-color: rgb(44, 46, 46);*/
+    /*background-image: url(../img/R_washmachine.png);*/
+    display: block;
     width: 100%;
     margin-top: 2%;
-    /*margin-left: 35px;*/
+    margin-left: 35px;
     height: auto;
     padding-top: 5px;
     /*padding-bottom: 10px;*/
 }
 
 .t-outlinebar {
-    background-color: rgb(235, 236, 196);
+    /*background-color:var(--back);*/
     width: 80%;
     margin: 1% 0 0 7%;
     height: auto;
@@ -18,7 +24,7 @@
 
 /*上面最大圈外圍的*/
 .t-linebar {
-    background-color: rgb(255, 255, 255);
+    /*background-color: rgb(255, 255, 255);*/
     width: 80%;
     margin: 0% 0 0 7%;
     height: 150px;
@@ -26,32 +32,126 @@
 }
 
 /*主要的動線圖*/
-.t-linebarword {
-    background-color: rgb(181, 151, 151);
-    width: 80%;
-    margin: 4% 0 0 7%;
-    padding-bottom: 2%;
-    height: 20%;
-    font-size: 25px;
+.t-ooxx {
+    /*background-color: #5b5e60;*/
+    width: 100%;
+    margin: 0% 0 0 -4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height: 10%;
     text-align: center;
+    display: flex;
+}
+
+.t-linebarinword1 {
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    margin: 1% 0 0 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height: 2%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.t-linebarinword2 {
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    margin: 1% 0 0 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height: 2%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.t-linebarinword3 {
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    margin: 1% 0 0 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height: 2%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.t-linebarinword4 {
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    margin: 1% 0 0 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height: 2%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.t-linebarinword5 {
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    margin: 1% 0 0 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height: 2%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.t-linebarword {
+    /*background-color: rgb(181, 151, 151);*/
+    width: 40%;
+    margin: 4% 0 0 27%;
+    padding-top: 1%;
+    /*padding-bottom: 1%;*/
+    height: 10%;
+    text-align: center;
+}
+
+.t-linebarword>p {
+    font-size: 40px;
+    background-color: aliceblue;
 }
 
 /*預計取回時間*/
 .t-midbox {
-    background-color: rgb(230, 250, 163);
+    display: flex;
+    background-color: rgba(249, 233, 204, 0.92);
     width: 80%;
-    margin: 4% 0 0 7%;
-    height: 200px;
+    margin: 2% 0 0 10%;
+    padding: 0% 0 0 2%;
+    height: 150px;
+
 }
 
+.t-inmidbox {
+    font-size: 25px;
+    line-height: 40pt;
+    /*margin-top: -5%;*/
+}
+.t-inmidbox2{
+    font-size: 25px;
+    line-height: 40pt;
+    padding: 0% 0 0 60%;
+}
 /*送洗方式取回方式*/
 .t-lastbox {
-    background-color: rgb(230, 250, 163);
+    background-color: rgba(249, 233, 204, 0.92);
     width: 80%;
-    margin: 4% 0 0 7%;
+    margin: 2% 0 5% 10%;
     height: 400px;
+    padding:1% 0 0 2% ;
+    display: flex;
 }
-
+.t-inlastbox{
+    font-size: 25px;
+    line-height: 40pt;
+}
+.t-inlastbox2{
+    font-size: 25px;
+    line-height: 40pt;
+    padding: 0% 0 0 50%;
+}
 /*-----------------------*/
 /* 給一個 scope 設定變數 */
 
@@ -81,6 +181,10 @@
 
 .container {
     text-align: center;
+    margin: 2% 0 0 -10%;
+    width: 170%;
+
+
 }
 
 .progress-container {
@@ -93,9 +197,10 @@
     /* 想要使用 relative-absolute，所以這裡放 relative */
     position: relative;
 
-    margin-bottom: 7%;
+    margin-bottom: 2%;
     max-width: 100%;
     width: 70%;
+
 }
 
 .progress-container::before {
@@ -106,14 +211,14 @@
     background-color: var(--line-border-empty);
 
     /* 進度條容器的長寬 */
-    height: 5%;
+    height: 50%;
     width: 70%;
 }
 
 .progress-container::before {
     content: "";
     background-color: var(--line-border-empty);
-    height: 4px;
+    height: 35px;
     width: 100%;
 
     /* 以下是新增的 */
@@ -133,17 +238,18 @@
 
 .progress {
     /* 這裡使用了事先定義的已完成進度顏色 */
-    background-color:var(--line-border-fill#3498db);
+    background-color: var(--line-border-fill);
 
-        /* height 一樣 4px，width在切版時可以先放成 50%，調整好再改回進度為 0% 的狀態 */
-        /* 附圖為 50% 的狀態 */
-        height: 4px;
+    /* height 一樣 4px，width在切版時可以先放成 50%，調整好再改回進度為 0% 的狀態 */
+    /* 附圖為 50% 的狀態 */
+    height: 33px;
     width: 0%;
 
     /* 一樣使用 relative-absolute把已完成進度條也放到正確位置上 */
     position: absolute;
     top: 50%;
     left: 0;
+    border-radius: 15px;
     transform: translateY(-50%);
     z-index: -1;
 
@@ -159,8 +265,8 @@
 
     /* 把元素畫成寬高為 30px 的圓形 */
     border-radius: 50%;
-    height: 30px;
-    width: 30px;
+    height: 60px;
+    width: 60px;
 
     /* 用 flexbox 排版把文字放到正中間 */
     display: flex;
@@ -183,7 +289,8 @@
     cursor: pointer;
     font-family: inherit;
     padding: 8px 30px;
-    margin: 5px;
+    margin-top: 3%;
+    margin-left: 1%;
     font-size: 14px;
 }
 
