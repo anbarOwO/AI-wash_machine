@@ -37,12 +37,12 @@
 }
 .R-peopic{
     background-color: #91cae6;
-    height: 100%;
-    width: 100%;
+    height: 50%;
+    width: 55%;
 }
 /*底下的地圖圖標(實體店面)*/
 .R-foot-mappic{
-    margin: 1% 12%;
+    margin: 0.5% 12%;
     z-index: 1;
     height: 130px;
     width: 10%;
@@ -50,8 +50,8 @@
     background-color: #91cae6;
 }
 .R-mappic{
-    height: 50%;
-    width: 100%;
+    height: 55%;
+    width: 70%;
     background-color: #91cae6;
 }
 
