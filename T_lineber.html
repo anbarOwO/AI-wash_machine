@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/t-linebar.css">
+    <link rel="stylesheet" type="text/scss" href="assets/scss/test.scss">
+    <title>貨物狀況</title>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <div class="t-allbox">
+        <div class="t-outlinebar">
+            <div class="t-linebar">
+                <div class="container">
+                    <!-- 進度條的 container -->
+                    <div class="progress-container">
+                        <!-- 進度條本體 -->
+                        <div class="progress" id="progress"></div>
+                        <!-- 進度條的圈圈（Steps） -->
+                        <div class="circle active">1</div>
+                        <div class="circle">2</div>
+                        <div class="circle">3</div>
+                        <div class="circle">4</div>
+                    </div>
+
+                    <!-- 前進後退按鈕 -->
+                    <button class="btn" id="prev" disabled>Prev</button>
+                    <button class="btn" id="next">Next</button>
+
+                </div>
+                <!-- script 放在 body 尾巴 -->
+            </div>
+
+            <div class="t-linebarword">
+                預計取回時間
+            </div>
+        </div>
+        <div class="t-midbox">
+            送洗方式取回方式
+        </div>
+        <div class="t-lastbox">
+            訂單細項
+        </div>
+    </div>
+
+</body>
+<footer>
+
+</footer>
+<script src="./assets/js/t-linebar.js"></script>
+
+</html>
