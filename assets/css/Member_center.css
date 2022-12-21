@@ -1,0 +1,17 @@
+/*選單固定模板*/
+.option{
+    width: 40%;
+    height: 35%;
+    background-color:white;
+ 
+}
+
+.option_icon{
+ 
+    width: 10%;
+    height: 10%;
+}
+
+.option_text{
+    color: red;
+}
