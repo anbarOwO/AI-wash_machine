@@ -9,28 +9,48 @@
 .R-Menupic{
     height: 70px;
     width: 6%;
-    overflow: hidden;
     background-color: #91cae6;
     z-index: 1;
     margin-top: 0.7%;
     margin-left: 1%;
 }
 .R-imgmenu{
-    height: 100%;
-    width: 100%;
+    height: 118%;
+    width: 160%;
     background-color: #91cae6;
+}
+.R-imgmenu:hover{
+    background-color: blue;
 }
 .R-title{
     text-align: center;
     height: 100%;
     width: 20%;
     margin: 0 35%;
-    overflow: hidden;
     background-color: #91cae6;
 }
 .R-titlepic{
     height: 100%;
     width: 100%;
+    margin: 0 100% 0 0;
     background-color: #91cae6;
+}
+
+@media (min-width:320px) and (max-width:720px){
+    .R-header{
+        height: 80px;
+    }
+    .R-titlepic{
+        width: 120px;
+        height: 80px;
+
+    }
+    .R-title{
+        margin: 0 30%;
+    }
+    .R-imgmenu{
+        width:300%
+    }
+    
 }
 
