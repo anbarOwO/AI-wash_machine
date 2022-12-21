@@ -1,3 +1,46 @@
 body{
     background-color:rgb(196, 236, 236) ;
 }
+
+.R-billtitle{
+    display: flex;
+    justify-content: center;
+    margin-left: -5%;
+    margin-top: 1%;
+    overflow: hidden; 
+}
+.R-billtitle>a{
+    margin-top: 0.8%;
+    margin-right: 2%;
+    height: 50%;
+    text-decoration: none;
+}
+.R-billangle{
+    font-size: 40px;
+}
+.R-billcontent{
+    font-size: 20px;
+    margin-left: 40%;
+    margin-top: 2%;
+}
+.R-billcon2{
+    text-align: center;
+    width: 30%;
+    margin-top: 2%;
+}
+.R-billcon2table{
+    width: 100%;
+}
+.R-row2col1,.R-row3col1,.R-row4col1{
+    text-align: left;
+}
+.R-billcon3{
+    margin-top: 1%;
+    margin-left: 55%;
+    text-align: left;
+    font-size: 20px;
+    width: 10%;
+}
+.R-billcon3-1,.R-billcon3-2,.R-billcon3-3{
+    margin-bottom: 1%;
+}
