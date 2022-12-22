@@ -31,3 +31,12 @@ input{
     border-width: 1px;
     margin-top: 5%;
 }
+
+@media (min-width:320px) and (max-width:720px){
+    .R-content{
+        width: 100%;
+    }
+    input{
+        width: 80%;
+    }
+}

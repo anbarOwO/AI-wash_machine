@@ -44,3 +44,22 @@ body{
 .R-billcon3-1,.R-billcon3-2,.R-billcon3-3{
     margin-bottom: 1%;
 }
+
+@media (min-width:320px) and (max-width:720px) {
+    .R-billcontent{
+        margin-left: 15%;
+    }
+    .R-billcon2{
+        margin-top: 8%;
+        width: 90%;
+    }
+    .R-billcon3{
+        margin-left: 45%;
+        width: 50%;
+        margin-top: 5%;
+    }
+    .R-billtitle>a{
+        margin-top: 4%;
+    }
+
+}
