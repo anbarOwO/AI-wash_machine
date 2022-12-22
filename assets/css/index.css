@@ -17,3 +17,11 @@ body{
     height: 100%;
     width: 100%;
 }
+@media (min-width:320px) and (max-width:720px){
+    .R_pic{
+        width: 100%;
+    }
+    .R_title{
+        margin-top: 40%;
+    }
+}
