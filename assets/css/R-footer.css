@@ -17,7 +17,7 @@
     margin: 0 0;
     z-index: 1;
     height: 100%;
-    overflow: hidden;
+
     background-color: #91cae6;
 }
 .R-cpic{
@@ -28,27 +28,27 @@
 }
 /*底下中間的會員*/
 .R-foot-peopic{
-    margin: 0 0;
+    margin: 0.5% 0 0 0;
     height: 100%;
-    overflow: hidden;
+ 
     background-color: #91cae6;
     z-index: 1;
 }
 .R-peopic{
     background-color: #91cae6;
-    height: 100%;
+    height: 85%;
     width: 100%;
 }
 /*底下的地圖圖標(實體店面)*/
 .R-foot-mappic{
-    margin: 0 0;
+    margin: 0.3% 0 0 0;
     z-index: 1;
     height: 100%;
-    overflow: hidden;
+   
     background-color: #91cae6;
 }
 .R-mappic{
-    height: 100%;
+    height: 90%;
     width: 100%;
     background-color: #91cae6;
 }
@@ -59,24 +59,24 @@ main{
 
 @media (min-width:320px) and (max-width:720px){
     .R-footer{
-     
-        left: 0.1%;
+        top: 90.5%;
+        left: -0.1%;
     }
     .R-foot-cpic>img{
-        height: 70%;
-        width: 180%;
+        height: 90%;
+        width: 185%;
     }
     .R-peopic{
-        height: 50%;
-        width: 150%;
+        height: 65%;
+        width: 120%;
     }
 
     .R-foot-peopic{
         margin: 3% 10%;
     }
     .R-mappic{
-        margin-top: 1.5%;
-        height: 58%;
+        margin-top: 8%;
+        height: 80%;
         width: 130%;
     }
 

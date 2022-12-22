@@ -1,6 +1,9 @@
 body{
     background-color:rgb(196, 236, 236) ;
 }
+main{
+    padding-bottom: 20%;
+}
 
 .R-billtitle{
     display: flex;

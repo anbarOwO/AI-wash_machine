@@ -14,7 +14,7 @@
     z-index: 1;
     margin-top: 0.7%;
     margin-left: 1%;
-    overflow: hidden;
+  
 }
 .R-imgmenu{
     height: 100%;
@@ -30,7 +30,7 @@
     width: 16%;
     margin: 0 35%;
     background-color: #91cae6;
-    overflow: hidden;
+   
 }
 .R-titlepic{
     height: 100%;
