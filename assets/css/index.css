@@ -1,0 +1,19 @@
+body{
+    background-color:rgb(196, 236, 236) ;
+}
+.R_title{
+    text-align: center;
+    margin-top: 5%;
+}
+.R_one,.R_two{
+    font-size: 32px;
+}
+.R_pic{
+    width: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.R_washmachine{
+    height: 100%;
+    width: 100%;
+}

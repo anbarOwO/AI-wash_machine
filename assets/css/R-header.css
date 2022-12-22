@@ -1,22 +1,24 @@
 .R_header{
-    height: 90px;
+    height: 73px;
     background-color: #91cae6;
     /*padding: 1% 0 1% 1%;*/
     display: flex;
     margin-top: 1%;
+    overflow: hidden;
 
 }
 .R-Menupic{
     height: 60px;
-    width: 4%;
+    width: 5%;
     background-color: #91cae6;
     z-index: 1;
     margin-top: 0.7%;
     margin-left: 1%;
+    overflow: hidden;
 }
 .R-imgmenu{
-    height: 118%;
-    width: 160%;
+    height: 100%;
+    width: 100%;
     background-color: #91cae6;
 }
 .R-imgmenu:hover{
@@ -25,9 +27,10 @@
 .R-title{
     text-align: center;
     height: 100%;
-    width: 20%;
+    width: 16%;
     margin: 0 35%;
     background-color: #91cae6;
+    overflow: hidden;
 }
 .R-titlepic{
     height: 100%;
