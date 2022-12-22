@@ -1,0 +1,11 @@
+table{
+    border-collapse: collapse;
+    background-color: yellow;
+    margin: 5% auto auto auto;
+    width: 45%;
+    border-radius:20px;
+}
+.total{
+   
+    text-indent:75%;
+}
