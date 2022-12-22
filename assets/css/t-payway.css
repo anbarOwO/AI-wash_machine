@@ -1,17 +1,21 @@
 .t-maturitymon {
-    font-size: 35px;
+    font-size: 6vmin;
     background-color: azure;
     margin: 1% 0 0 8%;
 }
 
 .t-maturityyear {
-    font-size: 35px;
+    font-size: 6vmin;
     background-color: azure;
     margin: 1% 0 0 8%;
 }
-
-.t-inpayway {
+body{
     background-color: rgb(196, 236, 236);
+    width: 100%;
+    height: auto;
+}
+.t-inpayway {
+    /*background-color: rgb(196, 236, 236);*/
     width: 100%;
     /*margin-left: 35px;*/
     height: auto;
@@ -37,12 +41,12 @@
 }
 
 .t-inpaywaybox>h3 {
-    font-size: 33px;
+    font-size: 6vmin;
     margin: 5px 0 0 55px;
 }
 
 .t-inpaywaybox>p {
-    font-size: 30px;
+    font-size: 6vmin;
     margin: 20px 0 0 55px;
 }
 
@@ -53,7 +57,7 @@
     height: 60px;
     margin: 1% 0px 0px 7%;
     border-radius: 10px;
-    font-size: 30px;
+    font-size: 6vmin;
 }
 
 .t-btnbox {
@@ -83,4 +87,34 @@
     background-color: #ffffff;
     color: rgb(5, 5, 5);
     transition: 0.5s;
+}
+@media (min-width:320px) and (max-width:720px) {
+    .t-inpayway{
+        /*margin-left: 15%;*/
+        width: 100%;
+        height: 2000px;
+        margin-bottom: 10%;
+        /*padding-bottom: 50%;*/
+    }
+    .t-inpaywaybox{
+        margin-top: 25px;
+        width: 90%;
+        margin-left: 3%;
+    }
+    .t-inpaywaybox>h3{
+        width: 100%;
+        /*margin-top: 4%;*/
+    }
+    .t-maturitymon{
+        margin-top: 10%;
+        margin-left: 15%;
+    }
+    .t-maturityyear{
+        margin-top: 10%;
+        margin-left: 15%;
+    }
+    .t-inpaywaybox input[type="text"] {
+        margin-top: 7%;
+        margin-left: 10%;
+    }
 }

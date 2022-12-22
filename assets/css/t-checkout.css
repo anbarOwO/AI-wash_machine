@@ -7,9 +7,13 @@
     padding: 1% 0 0 1%;
     border-radius: 10px;
 }
-
-.t-checkout {
+body{
     background-color: rgb(196, 236, 236);
+    width: 100%;
+    height: auto;
+}
+.t-checkout {
+    /*background-color: rgb(196, 236, 236);*/
     width: 100%;
     /*margin-left: 35px;*/
     height: auto;
@@ -17,26 +21,30 @@
     padding-bottom: 30px;
 }
 
-/*@media screen and (min-width:1024px) {
-    .t-checkout {
-        width:1000px;
-        background-color: bisque;
+@media (min-width:320px) and (max-width:720px) {
+    .t-checkout{
+        /*margin-left: 15%;*/
+        width: 100%;
+    }
+    .t-checkoutbox{
+        margin-top: 25px;
+        width: 100%;
+    }
+    .t-checkoutbox>h3{
+        width: 100%;
+        /*margin-top: 4%;*/
+    }
+    .t-allcheckoutbox{
+        margin-bottom: 20%;
     }
 }
-@media screen and (min-width:800px) {
-    .t-checkout {
-        width:750px;
-        background-color: rgb(55, 100, 126);
-    }
-}*/
-
 .t-checkout>h2 {
     font-size: 50px;
     margin: 10px 0 0 0px;
     text-align: center;
 
 }
-
+/*標題列*標題列*/
 .t-checkoutbox {
     background-color: rgb(255, 255, 255);
     width: 85%;
@@ -45,17 +53,14 @@
     height: 70px;
     padding-top: 10px;
     border-radius: 20px;
+    display: flex;
 }
-
+/*白白的那一條*/
 .t-checkoutbox>h3 {
-    font-size: 33px;
-    margin: 5px 0 0 55px;
+    font-size: 6vmin;
+    margin: 0.5% 0 0 5%;
 }
-
-.t-checkoutbox>p {
-    font-size: 30px;
-    margin: 20px 0 0 55px;
-}
+/*白白那一條裡面的內容*/
 
 
 .t-btnbox {
@@ -77,7 +82,7 @@
     margin-top: 2%;
     margin-left: 23%;
     margin-bottom: 5%;
-    font-size: 35px;
+    font-size: 7vmin;
     border-radius: 10px;
 }
 

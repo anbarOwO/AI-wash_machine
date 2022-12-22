@@ -1,5 +1,5 @@
 .t-inmember {
-    background-color: rgb(196, 236, 236);
+    /*background-color: rgb(196, 236, 236);*/
     width: 100%;
     /*margin-left: 35px;*/
     height: auto;
@@ -17,15 +17,15 @@
 .t-inmemberbox {
     background-color: rgb(255, 255, 255);
     width: 85%;
+    height: 150px;
     margin-top: 50px;
     margin-left: 7%;
-    height: 150px;
     padding-top: 10px;
     border-radius: 20px;
 }
 
 .t-inmemberbox>h3 {
-    font-size: 33px;
+    font-size: 6vmin;
     margin: 5px 0 0 55px;
 }
 
@@ -41,7 +41,7 @@
     height: 60px;
     margin: 1% 0px 0px 7%;
     border-radius: 10px;
-    font-size: 30px;
+    font-size: 5vmin;
 }
 
 .t-btnbox {
@@ -63,7 +63,7 @@
     margin-top: 2%;
     margin-left: 23%;
     margin-bottom: 5%;
-    font-size: 35px;
+    font-size: 5vmin;
     border-radius: 10px;
 }
 
@@ -72,5 +72,37 @@
     color: rgb(5, 5, 5);
     transition: 0.5s;
 }
-
+body{
+    background-color: rgb(196, 236, 236);
+    width: 100%;
+    height: auto;
+}
 /*------------------------------------*/
+@media (min-width:320px) and (max-width:720px) {
+    body{
+        width: 100%;
+        height: 2200px;
+    }
+    .t-inmember{
+        /*margin-left: 15%;*/
+        width: 100%;
+        margin-bottom: 10%;
+        /*padding-bottom: 50%;*/
+    }
+    .t-btn{
+        width: 50%;
+        font-size: 5.5vmin;
+        /*margin-bottom: 10%;*/
+    }
+    .t-inmemberbox input[type="text"] {
+        margin-top: 4%;
+        margin-left: 10%;
+    }
+    .t-inmemberbox{
+        margin-top: 5%;
+        width: 90%;
+        margin-left: 3%;
+        padding-bottom: 2%;
+        /*margin-bottom: 2%;*/
+    }
+}
