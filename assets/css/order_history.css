@@ -10,6 +10,24 @@ table:hover{
     background-color:#004aad;
 }
 
+.date_sel{
+    margin-left:26%;
+    margin-top: 3%;
+
+   
+}
+.option{
+    width: 180px;
+    height:50px;
+    font-size: 20px;
+}
+.but{
+    width: 60px;
+    height: 50px;
+}
+.mid_text{
+    word-wrap: break-word;
+}
 .date{
     border-radius: 50px;
 }
@@ -18,6 +36,19 @@ table:hover{
     table{
         width: 100%;
         font-size: 16px;
+    }
+    .option{
+        width: 22.2%;
+        height:15px;
+        font-size: 8px;
+    }
+    .date_sel{
+        margin-left:0%;
+        margin-top: 3%;
+    }
+    .but{
+        height:20px ;
+        display: none;
     }
    
 }
