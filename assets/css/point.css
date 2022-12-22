@@ -3,3 +3,24 @@
     margin-left: 40.2%;
     margin-top: 3%;
 }
+
+/*節省點數*/
+.part{
+    border: 1px solid black;
+    width: 45%;
+    height: 280px;
+    margin: 1% auto auto auto;
+}
+.part_text1{
+    font-size: 20px;
+    margin-left: 33%;
+    margin-top: 3%;
+}
+
+
+/*洗衣次數*/
+.part_text2{
+    font-size: 20px;
+    margin-left: 38%;
+    margin-top: 3%;
+}
