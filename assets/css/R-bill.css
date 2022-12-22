@@ -1,6 +1,10 @@
 body{
     background-color:rgb(196, 236, 236) ;
 }
+*{
+    text-decoration:none;
+    color:black;
+}
 main{
     padding-bottom: 20%;
 }
