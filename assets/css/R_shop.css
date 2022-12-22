@@ -1,0 +1,117 @@
+body{
+    background-color:rgb(196, 236, 236) ;
+}
+.R-four{
+    display: flex;
+    justify-content:center;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600;
+}
+.R-four1{
+    width:80px;height:80px; 
+    border-radius:999em;
+    background-color:#d0f1f8;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.R-four1:hover{
+    background-color:#004aad ;
+    color:white;
+}
+.R-four1text,.R-four2text,.R-four3text,.R-four4text{
+    margin-top: 28%;
+}
+.R-four2{
+    width:80px;height:80px; 
+    border-radius:999em;
+    background-color:#d0f1f8;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.R-four2:hover{
+    background-color:#004aad ;
+    color:white;
+}
+.R-four3{
+    width:80px;height:80px; 
+    border-radius:999em;
+    background-color:#d0f1f8;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.R-four3:hover{
+    background-color:#004aad ;
+    color:white;
+}
+.R-four4{
+    width:80px;height:80px; 
+    border-radius:999em;
+    background-color:#d0f1f8;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.R-four4:hover{
+    background-color:#004aad ;
+    color:white;
+}
+hr{
+    border-width: 2px;
+    border-color: black;
+    border-style:solid;
+}
+.R-location{
+    background-color: rgb(246, 237, 226);
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+.R-lotext{
+    font-size: 24px;
+    text-align: center;
+}
+.R-shopdetail{
+    background-color: white;
+    height: 90%;
+    padding-top: 1%;
+}
+.R-shopphoto{
+    overflow: hidden;
+    width: 25%;
+    height: 10%;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+.R-shopphotoin{
+    height: 100%;
+    width: 100%;
+}
+.R-shopname{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 1%;
+}
+.R-shopaddress{
+    display: flex;
+    justify-content: center;
+}
+
+.R-address{
+    font-size: 18px;
+    padding-top: 1%;
+}
+@media (min-width:320px) and (max-width:720px){
+    .R-shopphoto{
+        width: 65%;
+    }
+    .R-shopdetail{
+        padding-top: 4%;
+    }
+    .R-address{
+        padding-top: 3%;
+    }
+}
