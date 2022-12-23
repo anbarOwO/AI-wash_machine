@@ -1,8 +1,19 @@
+h2{
+    text-align: center;
+}
+.title{
+    position: absolute;
+    z-index: 10;
+}
 .content{
     border: 1px soild black;
     background-color: #d0f1f8;
-    width: 45%;
-    height: 65%;
-    text-align: center;
-    
+    width: 40%;
+    height: 65%; 
+    padding: 10% 3% 10% 3%; 
+    margin: 5%;
+}
+.war_text{
+    background-color: white;
+    padding:0.1%
 }
