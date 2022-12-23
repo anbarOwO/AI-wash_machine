@@ -14,6 +14,9 @@ window.onload = function (){
     document.getElementById("min1").innerText=max_chart1
     var fin_chart1=document.getElementById("fin_chart1")
     var width=0;
+
+    
+
     /*碳排進度條*/ 
     if(fin_chart1_p>1){
         fin_chart1_p=(fin_chart1_p-Math.floor(fin_chart1_p))*100;
