@@ -25,7 +25,6 @@
 
         <main>
             <div class="title">個人節省碳排查詢</div>
-            <script src=window.run()></script>
             <div class="part">
                 <div class="part_title1">
                     <div class="part_text1-1">
@@ -33,10 +32,10 @@
                     </div>
     
                     <div class="part_text1-2" id="point" onclick="count()">
-                        950
+                        2500
                     </div>
     
-                    <div class="part_text1-3">
+                    <div class="part_text1-3" onclick="run()">
                         碳排
                     </div>
                 </div>
@@ -44,11 +43,11 @@
 
                 <div class="part_chart">
                     
-                    <div class="fin_chart1"></div>
+                    <div class="fin_chart1" id="fin_chart1"></div>
                     
                 </div>
-                <div class="chart1_min">1000</div>
-                <div class="chart1_max">2000</div>
+                <div class="chart1_min" id="max">1000</div>
+                <div class="chart1_max" id="min">2000</div>
             </div>
 
             <div class="part">
@@ -82,6 +81,4 @@
     </div>
     
 </body>
-
-<script src="./assets/js/point.js"></script>
 </html>
