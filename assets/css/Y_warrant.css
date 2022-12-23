@@ -2,8 +2,7 @@ h2{
     text-align: center;
 }
 .title{
-    position: absolute;
-    z-index: 10;
+  
 }
 .content{
     border: 1px soild black;
