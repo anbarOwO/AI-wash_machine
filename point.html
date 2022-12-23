@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./assets/css/R-footer.css">
     <link rel="stylesheet" href="./assets/css/Member_center.css">
     <link rel="stylesheet" href="./assets/css/point.css">
+    <script src="./assets/js/point.js"></script>
 </head>
 <body>
     <div id="container">
@@ -24,16 +25,39 @@
 
         <main>
             <div class="title">個人節省碳排查詢</div>
-
+            <script src=window.run()></script>
             <div class="part">
-                <div class="part_text1">
-                    我已成功節省950碳排
+                <div class="part_title1">
+                    <div class="part_text1-1">
+                        我已成功節省
+                    </div>
+    
+                    <div class="part_text1-2" id="point" onclick="count()">
+                        950
+                    </div>
+    
+                    <div class="part_text1-3">
+                        碳排
+                    </div>
                 </div>
+                
+
+                <div class="part_chart">
+                    
+                    <div class="fin_chart1"></div>
+                    
+                </div>
+                <div class="chart1_min">1000</div>
+                <div class="chart1_max">2000</div>
             </div>
 
             <div class="part">
                 <div class="part_text2">
                     洗衣次數14次
+                </div>
+
+                <div class="part_chart">
+                    <div class="fin_chart2"></div>
                 </div>
             </div>
         </main>
@@ -58,4 +82,6 @@
     </div>
     
 </body>
+
+<script src="./assets/js/point.js"></script>
 </html>
