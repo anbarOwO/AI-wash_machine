@@ -53,3 +53,43 @@
     color: white;
     border:none
 }
+
+@media (min-width:320px) and (max-width:720px){
+    .Y-inmemberbox2{
+        margin-top: 5%;
+        width: 85%;
+        height: 30%;
+        margin-left: 3%;
+        padding-bottom: 2%;
+    }
+    .t-inmemberbox>h3 {
+        font-size: 5vmin;
+    }
+    .Y-inmemberbox2>h3 {
+        font-size: 5vmin;
+        margin-left: 8.5%;
+    }
+    #wash{
+        font-size: 5vmin;
+        margin-left: 8.5%;
+    }
+    #del_but,#add_but{
+        width: 20%;
+    }
+    #add{
+        margin-left: 6%;
+        width: 33.5%;
+        height: 22px;
+    }
+    .Y-btn{
+       width: 35%;
+       height: 50px;
+       margin-left: 9.5%;   
+       margin-top: 5%;
+    }
+    .t-inmemberbox>p{
+        font-size: 5vmin;
+    }
+    .t-inmember>h2{
+        font-size: 46px;
+    }
