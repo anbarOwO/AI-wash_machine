@@ -1,10 +1,27 @@
 function add(){
-    var add_btn=document.getElementById("add_pay")
-    add_btn.style.display="block"
-    document.getElementById('add-btn').onclick=function(){
-        
-        add_btn.style.display="none";
-        
+    if(document.getElementById("add_pay2").style.display=="block"){
+        document.getElementById("add_pay2").style.display="none"
+        document.getElementById("add_pay").style.display="block";
     }
-    
+    else if(document.getElementById("add_pay").style.display=="block")
+    {
+        document.getElementById("add_pay").style.display="none";
+    }
+    else{
+        document.getElementById("add_pay").style.display="block";
+    }
+}
+
+function delet(){
+    if(document.getElementById("add_pay").style.display=="block"){
+        document.getElementById("add_pay").style.display="none"
+        document.getElementById("add_pay2").style.display="block"
+    }
+    else if(document.getElementById("add_pay2").style.display=="block")
+    {
+        document.getElementById("add_pay2").style.display="none";
+    }
+    else{
+        document.getElementById("add_pay2").style.display="block";
+    }
 }

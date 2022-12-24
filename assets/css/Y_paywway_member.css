@@ -23,3 +23,49 @@
 .option_content>input:hover{
     background-color:#004aad ;
 }
+
+.bank_data{
+    width: 40%;
+    margin: 2% auto auto auto;
+    text-align: center;
+    background-color: #d0f1f8;
+    height: 80px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;  
+    border-radius: 15px;
+
+}
+.dele_but{
+    display: inline-block;
+    
+}
+.bank_name{
+    display: inline-block;
+    margin-right: 3%;
+    font-size: 30px;
+}
+.dele_but>input{
+    font-size: 28px;
+    background-color:#26acc1;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+.dele_but>:hover{
+    background-color:#004aad;
+}
+
+@media (min-width:320px) and (max-width:720px){
+    .option_content{
+        width: 48.3%;
+    }
+
+    .bank_name{
+
+        font-size: 24px;
+    }
+
+    .bank_data{
+        width: 100%;
+}
