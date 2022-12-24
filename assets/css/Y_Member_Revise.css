@@ -34,10 +34,22 @@
     margin-left: -2.8%;
     
 }
-#add_wash{
-    margin-left: -2.5%;
-    
+#add{
+    width: 16%;
+    height: 40px;
+    margin-left: -7%;
 }
 #t-btn{
     margin-bottom: 15%;
+}
+#del_but,#add_but{
+    width: 8%;
+    height: 30px;
+    margin-left: 5%;
+    margin-top: -1%; 
+}
+.btn{
+    background-color: #63a5a5;
+    color: white;
+    border:none
 }
