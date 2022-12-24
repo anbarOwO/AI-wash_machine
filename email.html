@@ -43,7 +43,89 @@
             </div>
             <br>
             <div class="l-questionbox-question-text">
-                補字
+                <div class="table-outbox">
+                    <table>
+                        <colgroup>
+                            <col style="background-color: white">
+                            <col span="10">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                            <th>洗衣方式</th>
+                            <th>種類</th>
+                            <th>價格(每公斤)</th>
+                            <th>碳志郎點數(每公斤)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            <td rowspan="3">洗滌</td>
+                            <td>冷水</td>
+                            <td>15</td>
+                            <td>15</td>
+                            </tr>
+                    
+                            <tr>
+                            <td>溫水</td>
+                            <td>15.5</td>
+                            <td>14.5</td>
+                            </tr>
+                    
+                            <tr>
+                            <td>熱水</td>
+                            <td>18</td>
+                            <td>15.5</td>
+                            </tr>
+
+                            <tr>
+                                <td  rowspan="3">乾衣模式</td>
+                                <td>脫水</td>
+                                <td>2</td>
+                                <td>0.1</td>
+                            </tr>
+
+                            <tr>
+                                
+                                <td>烘乾</td>
+                                <td>2.5</td>
+                                <td>1</td>
+                            </tr>
+
+                            <tr>
+                                <td>自然晾曬</td>
+                                <td>1</td>
+                                <td>3</td>
+                            </tr>
+
+                            <tr>
+                                <td rowspan="2">是否需要熨燙</td>
+                                <td>是</td>
+                                <td>4</td>
+                                <td>1</td>
+                            </tr>
+
+                            <tr>
+                                <td>否</td>
+                                <td>0</td>
+                                <td>3</td>
+                            </tr>
+
+                            <tr>
+                                <td rowspan="2">是否需要摺衣</td>
+                                <td>是</td>
+                                <td>4</td>
+                                <td>1</td>
+                            </tr>
+
+                            <tr>
+                                <td>否</td>
+                                <td>0</td>
+                                <td>3</td>
+                            </tr>
+                    
+                        </tbody>
+                    </table>
+                  </div>
             </div>
             <br>
             <p>
@@ -88,6 +170,7 @@
                 聯絡方式
             </div>
             <br>
+            <!--
             <div class="l-formbox">
                 <div class="l-formbox-text">
                     <label for="l-formbox-detail">姓名：</label>
@@ -108,10 +191,44 @@
                     <input type="submit" value="送出" class="btn" />
 
                 </div>
-            </div>
+            </div>-->
 
-        </div>
+            <form action="mailto:test@company?subject=Personal Information" method="POST" enctype="text/plain" >		 
+                <div class="email">
+                    <div class="email-table-box">
+                        <label class="email-table-box-title">您的姓名</label>
+                        <input type="text" name="name">
+                    </div>
 
+                    <div class="email-table-box">
+                        <label class="email-table-box-title">連絡電話</label>
+                        <input type="text" name="cellphone" maxlength="10">
+                    </div>
+
+                    <div class="email-table-box">
+                        <label class="email-table-box-title">聯絡信箱</label>
+                        <input type="email" size="50" name="email">
+                    </div>
+
+                    <div class="email-table-box">
+                        <label class="email-table-box-title">意見回饋</label>
+                        
+                        <textarea rows="4" cols="80" name="note"></textarea>
+                        
+                    </div>
+
+                    
+                    <div class="buttontd" colspan="4" >  
+                         
+                        <input type="submit" class="dbutton" value="資料送出" /> &nbsp &nbsp
+                        <input type="reset" class="dbutton" value="重設" />
+                    </div>            
+                   
+
+                </div>
+
+            </form>
+        <!--
         <footer class="R-footer">
             <div class="R-foot-cpic">
                 <img src="./assets/img/R_footercloth.svg" alt="" class="R-cpic">
@@ -123,6 +240,7 @@
                 <img src="./assets/img/R_footerplaceholder.png" alt="" class="R-mappic">
             </div>
         </footer>
+        -->
 
     </div>
 </body>
