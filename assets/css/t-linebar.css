@@ -21,7 +21,6 @@ body {
     height: auto;
     padding: 2% 0 0 4%;
 }
-
 /*上面最大圈外圍的*/
 .t-linebar {
     /*background-color: rgb(255, 255, 255);*/
@@ -123,7 +122,7 @@ body {
 .t-linebarword {
     /*background-color: rgb(181, 151, 151);*/
     width: 40%;
-    margin: 4% 0 0 27%;
+    margin: 4% 0 0 -27%;
     padding-top: 1%;
     /*padding-bottom: 1%;*/
     height: 10%;
@@ -178,321 +177,93 @@ body {
     line-height: 40pt;
     padding: 0% 0 0 50%;
 }
-.t-inlastbox2>p{
+
+.t-inlastbox2>p {
     margin-left: -45%;
 }
+
 /*-----------------------*/
-/* 給一個 scope 設定變數 */
-
-:root {
-    /* 已完成進度的顏色 */
-    --line-border-fill: #3498db;
-
-    /* 未完成進度的顏色 */
-    --line-border-empty: #e0e0e0;
-}
-
-/* 初始化一些基本排版 */
-* {
-    box-sizing: border-box;
-}
-
-/*body {
-    background-color: #f6f7fb;
-    font-family: "Muli", sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    overflow: hidden;
-    margin: 0;
-}*/
-
-.t-container {
-    text-align: center;
-    margin: 2% 0 0 -10%;
-    width: 170%;
-
-}
-
-.t-progress-container {
-    /* 讓這個元素成為 flexbox 的 container */
-    display: flex;
-
-    /* 使用 space-between 使內部元素取得相同間距 */
-    justify-content: space-between;
-
-    /* 想要使用 relative-absolute，所以這裡放 relative */
-    position: relative;
-
-    margin-bottom: 2%;
-    max-width: 100%;
-    width: 70%;
-
-}
-
-.t-progress-container::before {
-    /* 使用偽元素一定要有 content，如果沒有內容可以放空字串 */
-    content: "";
-
-    /* 這裡使用了事先定義的未完成進度顏色 */
-    background-color: var(--line-border-empty);
-
-    /* 進度條容器的長寬 */
-    height: 50%;
-    width: 70%;
-}
-
-.t-progress-container::before {
-    content: "";
-    background-color: var(--line-border-empty);
-    height: 35px;
-    width: 100%;
-
-    /* 以下是新增的 */
-    /* 使用 relative-absolute */
-    position: absolute;
-
-    /* 調整 absolute 的位置到高度的 50%，距離左側 0 */
-    top: 50%;
-    left: 0;
-
-    /* 因為這個元素自身的寬度，所以需要往上調自身寬度的 50% 回來才會回到正中間 */
-    transform: translateY(-50%);
-
-    /* 顯示到數字的後面 */
-    z-index: -1;
-}
-
-.t-progress {
-    /* 這裡使用了事先定義的已完成進度顏色 */
-    background-color: var(--line-border-fill);
-
-    /* height 一樣 4px，width在切版時可以先放成 50%，調整好再改回進度為 0% 的狀態 */
-    /* 附圖為 50% 的狀態 */
-    height: 33px;
-    width: 0%;
-
-    /* 一樣使用 relative-absolute把已完成進度條也放到正確位置上 */
-    position: absolute;
-    top: 50%;
-    left: 0;
-    border-radius: 15px;
-    transform: translateY(-50%);
-    z-index: -1;
-
-    /* 這裡用 transition 做出一點動畫效果*/
-    transition: 0.4s ease;
-}
-
-.circle {
-    /* 底色白色，文字顏色和邊框灰色 */
-    background-color: #fff;
-    color: #999;
-    border: 3px solid #999;
-
-    /* 把元素畫成寬高為 30px 的圓形 */
-    border-radius: 50%;
-    height: 60px;
-    width: 60px;
-
-    /* 用 flexbox 排版把文字放到正中間 */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    /* 一樣加上動畫效果 */
-    transition: 0.4s ease;
-}
-
-.circle.active {
-    border-color: var(--line-border-fill);
-}
-
-.t-btn {
-    background-color: var(--line-border-fill);
-    color: #fff;
-    border: 0;
-    border-radius: 6px;
-    cursor: pointer;
-    font-family: inherit;
-    padding: 8px 30px;
-    margin-top: 3%;
-    margin-left: 1%;
-    font-size: 14px;
-}
-
-.btn:active {
-    transform: scale(0.98);
-}
-
-.btn:focus {
-    outline: 0;
-}
-
-.btn:disabled {
-    background-color: var(--line-border-empty);
-    cursor: not-allowed;
-}
 
 @media (min-width:320px) and (max-width:720px) {
-    .t-container {
-        text-align: center;
-        margin: 2% 0 0 -10%;
-        width: 170%;
+    .t-outlinebar {
+        /*background-color:var(--back);*/
+        width: 77%;
+        margin: 1% 0 0 5%;
+        height: auto;
+        padding: 2% 0 0 4%;
     }
-
-    .t-progress-container::before {
-        content: "";
-        background-color: var(--line-border-empty);
-        height: 25px;
-        width: 100%;
-
-        /* 以下是新增的 */
-        /* 使用 relative-absolute */
-        position: absolute;
-
-        /* 調整 absolute 的位置到高度的 50%，距離左側 0 */
-        top: 50%;
-        left: 0;
-
-        /* 因為這個元素自身的寬度，所以需要往上調自身寬度的 50% 回來才會回到正中間 */
-        transform: translateY(-50%);
-
-        /* 顯示到數字的後面 */
-        z-index: -1;
-    }
-
-    .t-progress-container {
-        display: flex;
-
-        /* 使用 space-between 使內部元素取得相同間距 */
-        justify-content: space-between;
-
-        position: relative;
-        margin-left: -20%;
-        margin-bottom: 2%;
-        max-width: 100%;
-        width: 100%;
-    }
-
-    .t-progress {
-        /* 這裡使用了事先定義的已完成進度顏色 */
-        background-color: var(--line-border-fill);
-
-        /* height 一樣 4px，width在切版時可以先放成 50%，調整好再改回進度為 0% 的狀態 */
-        /* 附圖為 50% 的狀態 */
-        height: 25px;
-        width: 0%;
-
-        /* 一樣使用 relative-absolute把已完成進度條也放到正確位置上 */
-        position: absolute;
-        top: 50%;
-        left: 0;
-        border-radius: 15px;
-        transform: translateY(-50%);
-        z-index: -1;
-
-        /* 這裡用 transition 做出一點動畫效果*/
-        transition: 0.4s ease;
-    }
-
-    .circle {
-        /* 底色白色，文字顏色和邊框灰色 */
-        background-color: #fff;
-        color: #999;
-        border: 3px solid #999;
-
-        /* 把元素畫成寬高為 30px 的圓形 */
-        border-radius: 50%;
-        height: 35px;
-        width: 35px;
-
-        /* 用 flexbox 排版把文字放到正中間 */
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        /* 一樣加上動畫效果 */
-        transition: 0.4s ease;
-    }
-
-    .t-btn {
-        margin-top: 10%;
-        margin-left: 1%;
-        font-size: 4vmin;
-    }
-
     .t-ooxx {
         width: 100%;
-        margin: 0% 0 0 -4%;
+        margin: -25% 0 0 -4%;
         padding-top: 1%;
         padding-bottom: 1%;
     }
 
     .t-linebarinword1 {
-        width: 15%;
-        margin: -3% 0 0 -23%;
+        width: 10%;
+        margin: -3% 0 0 -5%;
         padding-bottom: 1%;
         height: 3%;
-        font-size: 4vmin;
+        font-size: 3vmin;
     }
 
     .t-linebarinword2 {
-        width: 15%;
+        width: 10%;
         margin: -3% 2% 0 4%;
         padding-bottom: 1%;
         height: 3%;
-        font-size: 4vmin;
+        font-size: 3vmin;
     }
 
     .t-linebarinword3 {
-        width: 15%;
-        margin: -3% 0 0 6%;
+        width: 10%;
+        margin: -3% 0 0 4%;
         padding-bottom: 1%;
         height: 3%;
-        font-size: 4vmin;
+        font-size: 3vmin;
     }
 
     .t-linebarinword4 {
-        width: 15%;
-        margin: -3% 0 0 8%;
+        width: 10%;
+        margin: -3% 0 0 4%;
         padding-bottom: 1%;
         height: 3%;
-        font-size: 4vmin;
+        font-size: 2.5vmin;
     }
 
     .t-linebarinword5 {
-        width: 15%;
-        margin: -3% 0 0 10%;
+        width: 10%;
+        margin: -3% 0 0 4%;
         padding-bottom: 1%;
         height: 3%;
-        font-size: 4vmin;
+        font-size: 3vmin;
     }
-
-    /*.t-linebarinword6 {
-        width: 15%;
-        margin: -3% 5% 0 %;
+    .t-linebarinword6 {
+        width: 10%;
+        margin: -3% 0 0 5%;
         padding-bottom: 1%;
         height: 3%;
-        font-size: 4vmin;
+        font-size: 3vmin;
     }
+    
     .t-linebarinword7 {
-        width: 15%;
-        margin: -3% 0 0 25%;
+        width: 10%;
+        margin: -3% 0 0 6%;
         padding-bottom: 1%;
         height: 3%;
-        font-size: 4vmin;
-    }*/
+        font-size: 3vmin;
+    }
     .t-linebarword {
         /*background-color: rgb(181, 151, 151);*/
-        width: 100%;
-        margin: 4% 0 0 -9%;
+        width: 80%;
+        
     }
-
+    .t-linebarword>p {
+        margin: 2% 0 5% 20%;
+    }
     .t-midbox {
-        width: 100%;
-        margin: 2% 0 0 1%;
+        width: 80%;
+        margin: 2% 0 0 0%;
 
     }
 
@@ -500,20 +271,313 @@ body {
         font-size: 5vmin;
         width: 50%;
     }
+
     .t-lastbox {
         width: 100%;
         margin: 2% 0 5% 1%;
         height: 450px;
     }
-    
+
     .t-inlastbox {
         font-size: 4vmin;
         width: 50%;
         line-height: 40pt;
     }
-    .t-inlastbox2>p{
+
+    .t-inlastbox2>p {
         margin-left: -90%;
         font-size: 4vmin;
     }
+    #progressBar span:nth-child(2) {
+        width: 25px;
+        height: 25px;
+    }
+    
+    #progressBar span:nth-child(3) {
+        width: 25px;
+        height: 25px;
+    }
+    
+    #progressBar span:nth-child(4) {
+        width: 25px;
+        height: 25px;
+    }
+    
+    #progressBar span:nth-child(5) {
+        width: 25px;
+        height: 25px;
+    }
+    
+    #progressBar span:nth-child(6) {
+        width: 25px;
+        height: 25px;
+    }
+    
+    #progressBar span:nth-child(7) {
+        width: 25px;
+        height: 25px;
+    }
+    
+    #progressBar span:nth-child(8) {
+        width: 25px;
+        height: 25px;
+    }
+    #progressBar div span {
+        position: absolute;
+        display: inline-block;
+        background: green;
+        height: 1px;
+        width: 100%;
+        margin: -1% 0 0 -2%;
+        -webkit-animation: bgLoad 5.5s linear;
+    }
+    #progressBar div {
+        position: absolute;
+        margin-left: -50%;
+        background: #ccc;
+    }
+    /*#progressBar span:nth-child(9) {
+        left: 100%;
+        width: 30px;
+        height: 30px;
+    }*/
+}
+#progressBar {
+    width: 150%;
+    height: 50px;
+    position: relative;
+    margin: 3% 0 0 -28%;
+}
 
+#progressBar div {
+    width: 100%;
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    margin-top: -20px;
+    margin-left: 0%;
+    background: #ccc;
+}
+
+#progressBar div span {
+    position: absolute;
+    display: inline-block;
+    background: green;
+    height: 10px;
+    width: 100%;
+    -webkit-animation: bgLoad 20.5s linear;
+}
+
+@-webkit-keyframes bgLoad {
+    0% {
+        width: 0%;
+    }
+
+    10.18%,
+    16.27% {
+        width: 16%;
+    }
+
+    20.45%,
+    35.54% {
+        width: 32%;
+    }
+
+    40.72%,
+    50.81% {
+        width: 48%;
+    }
+
+    55.72%,
+    70.81% {
+        width: 64%;
+    }
+
+    75.72%,
+    91.81% {
+        width: 80%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+#progressBar>span {
+    position: absolute;
+    top: 0;
+    margin-top: -1%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #ccc;
+    margin-left: -20px;
+    color: #fff;
+}
+
+@-webkit-keyframes circleLoad_1 {
+
+    0%,
+    50% {
+        background: #ccc;
+    }
+
+    100% {
+        background: green;
+    }
+}
+
+@-webkit-keyframes circleLoad_2 {
+
+    0%,
+    55% {
+        background: #ccc;
+    }
+
+    100% {
+        background: green;
+    }
+}
+
+@-webkit-keyframes circleLoad_3 {
+
+    0%,
+    60% {
+        background: #ccc;
+    }
+
+    100% {
+        background: green;
+    }
+}
+
+@-webkit-keyframes circleLoad_4 {
+
+    0%,
+    70% {
+        background: #ccc;
+    }
+
+    100% {
+        background: green;
+    }
+}
+
+@-webkit-keyframes circleLoad_5 {
+
+    0%,
+    80% {
+        background: #ccc;
+    }
+
+    100% {
+        background: green;
+    }
+}
+
+@-webkit-keyframes circleLoad_6 {
+
+    0%,
+    90% {
+        background: #ccc;
+    }
+
+    100% {
+        background: green;
+    }
+}
+
+@-webkit-keyframes circleLoad_6 {
+
+    0%,
+    90% {
+        background: #ccc;
+    }
+
+    100% {
+        background: green;
+    }
+}
+
+#progressBar span:nth-child(2) {
+    left: 0%;
+    background: green;
+}
+
+#progressBar span:nth-child(3) {
+    left: 16%;
+    background: green;
+    -webkit-animation: circleLoad_1 3.5s ease-in;
+}
+
+#progressBar span:nth-child(4) {
+    left: 32%;
+    background: green;
+    -webkit-animation: circleLoad_2 6s ease-in;
+}
+
+#progressBar span:nth-child(5) {
+    left: 48%;
+    background: green;
+    -webkit-animation: circleLoad_3 10.5s ease-in;
+}
+
+#progressBar span:nth-child(6) {
+    left: 64%;
+    background: green;
+    -webkit-animation: circleLoad_4 13.5s ease-in;
+}
+
+#progressBar span:nth-child(7) {
+    left: 80%;
+    background: green;
+    -webkit-animation: circleLoad_5 16.5s ease-in;
+}
+
+#progressBar span:nth-child(8) {
+    left: 96%;
+    background: green;
+    -webkit-animation: circleLoad_6 20.5s ease-in;
+}
+
+#progressBar span:nth-child(8) {
+    left: 100%;
+    background: green;
+    -webkit-animation: circleLoad_6 21.5s ease-in;
+}
+
+/*-------------------------------------------------------*/
+.t-linebarword {
+    /*background-color: rgb(181, 151, 151);*/
+    width: 100%;
+    margin: 4% 0 0 -9%;
+}
+
+.t-midbox {
+    width: 100%;
+    margin: 2% 0 0 1%;
+
+}
+
+.t-inmidbox {
+    font-size: 5vmin;
+    width: 50%;
+}
+
+.t-lastbox {
+    width: 100%;
+    margin: 2% 0 5% 1%;
+    height: 450px;
+}
+
+.t-inlastbox {
+    font-size: 4vmin;
+    width: 50%;
+    line-height: 40pt;
+}
+
+.t-inlastbox2>p {
+    margin-left: -90%;
+    font-size: 4vmin;
 }
