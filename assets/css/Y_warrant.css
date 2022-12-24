@@ -1,0 +1,49 @@
+h2{
+    text-align: center;
+}
+.title{
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+.content{
+    border: 1px soild black;
+    background-color: #d0f1f8;
+    width: 40%;
+    height: 65%; 
+    padding: 2% 3% 2% 3%; 
+    margin: 3% auto auto auto;
+}
+.war_text{
+    background-color: white;
+    padding:0.1%
+    
+}
+
+/*打勾勾跟確定*/
+.check{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 2%;
+}
+.agree_but{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 18px;
+}
+
+@media (min-width:320px) and (max-width:720px){
+    .content{
+        width: 95%;
+    }
+    .title{
+        font: size 20px;;
+    }
+    .war_text{
+        font-size: 16px;
+        padding: 5%;
+        height: 500px;
+        overflow: scroll;
+    }
+}
