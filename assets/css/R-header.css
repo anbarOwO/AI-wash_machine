@@ -14,6 +14,7 @@
     z-index: 1;
     margin-top: 0.7%;
     margin-left: 1%;
+    cursor: pointer;
   
 }
 .R-imgmenu{
@@ -37,6 +38,29 @@
     width: 100%;
     margin: 0 100% 0 0;
     background-color: #91cae6;
+}
+/*側邊欄*/
+.R_side{
+    background-color: white;
+    height: 30%;
+    width: 0%;
+    z-index: 2;
+    position: absolute;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.R_side1,.R_side2,.R_side3,.R_side4,.R_side5,.R_side6{
+    width: 100%;
+    height: 17%;
+    padding-top: 1%;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(246, 252, 224);
+}
+.R_side1:hover,.R_side2:hover,.R_side3:hover,.R_side4:hover,.R_side5:hover,.R_side6:hover{
+    font-weight: 800;
+    background-color:#b2d0fb;
+    
 }
 
 @media (min-width:320px) and (max-width:720px){
