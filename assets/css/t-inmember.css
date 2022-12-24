@@ -98,7 +98,7 @@ body{
     width: 100%;
     height: auto;
 }
-#add_but{
+#add_but1{
     width: 10%;
     height:55px;
     border-radius: 15px;
@@ -167,7 +167,7 @@ border:none
         font-size: 5vmin;
     }
 
-    #add_but{
+    #add_but1{
         width: 13%;
         height:30px;
         border-radius: 10px;
