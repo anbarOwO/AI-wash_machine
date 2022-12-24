@@ -328,7 +328,7 @@ body {
         background: green;
         height: 1px;
         width: 100%;
-        margin: -1% 0 0 -2%;
+        margin: 0% 0 0 -2%;
         -webkit-animation: bgLoad 5.5s linear;
     }
     #progressBar div {
