@@ -18,7 +18,6 @@
 .Y-inmemberbox2>h3{
     font-size: 6vmin;
     margin:-2.5% 0 0 -2.5%;
-   
 }
 .Y-inmemberbox2 {
     font-size: 30px;
@@ -36,6 +35,9 @@
     
 }
 #add_wash{
-    margin-left: -80%;
-    padding-bottom: 5%;
+    margin-left: -2.5%;
+    
+}
+#t-btn{
+    margin-bottom: 15%;
 }

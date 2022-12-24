@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/R-header.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/R-footer.css">
     <link rel="stylesheet" href="./assets/css/Y_Member_Revise.css">
+    <script src="./assets/js/change_data.js"></script>
 </head>
 
 <body>
@@ -22,34 +23,39 @@
         </div>
         <div class="t-inmemberbox">
             <h3>暱稱 :</h3>
-            <div class="user_data">王大壯</div>
+            <input type='text'  id='t-name' value="王大壯" readonly=true>
         </div>
         <div class="t-inmemberbox">
             <h3>信箱 :</h3>
-            <div class="user_data">aiwash@tahoo.com.tw</div>
+            <input type="text" value="iwidiwdiw@yahoo.com.tw" id="t-email" readonly="true">
         </div>
         <div class="t-inmemberbox">
             <h3>電話 :</h3>
-            <div class="user_data">0975558444</div>
+            <p>0555555555</p>
         </div>
         <div class="t-inmemberbox">
             <h3>地址：</h3>
-            <div class="user_data">320桃園市中壢區中北路200號</div>
+            <input type="text" value="320桃園市中壢區中北路200號" id="t-adress" readonly="true">
         </div>
         
         <div class="Y-inmemberbox2">
             <h3>洗衣袋編號 :</h3>
-            <div class="user_data" id="wash">洗衣袋&nbsp;&nbsp;457869</div>
-            <div class="user_data" id="add_wash"><input type="button"value="+輸入更多洗衣袋編號" style="width:200px;height:60px;></div>
-        </div>
-        <div class='Y-btnbox'>
+            <div>
+                <div class="user_data" id="wash">洗衣袋&nbsp;&nbsp;457869</div>
+                <div class="del_but"><input type="button" value="刪除" id="del_but"></div>
+            </div>
             
-                <button class='Y-btn' id='t-btn">編輯/修改資料</button>
+            <div class="user_data" id="add_wash">
+                <input type="button" id="add"value="+輸入更多洗衣袋編號" style="width:180px;height:40px;visibility: hidden;" onclick="add()">
+            </div>
+        
+        <div class='Y-btnbox'>
+                <input type="button" class='Y-btn' id="t-btn" onclick="change()" value="編輯/修改資料">
             
         </div>
 
         <div class="Y-btnbox">
-            <a href="">
+            <a href="/Member_center.html">
                 <button class="Y-btn" id="t-btn">返回</button>
             </a>
         </div>
