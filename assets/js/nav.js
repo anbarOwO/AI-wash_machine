@@ -18,7 +18,7 @@ R_pic.addEventListener('click',function(){
     R_side4.style.color="black";
     R_side5.style.color="black";
     R_side6.style.color="black";
-    R_side.style.width="10%";
+    R_side.style.width="30%";
 
 })
 
@@ -27,7 +27,7 @@ R_pic.addEventListener('click',function(e){
 });
 
 R_body.addEventListener('click',function(){
-    if (R_side.style.width=="10%"){
+    if (R_side.style.width=="30%"){
 
         R_side1.style.color="rgb(246, 252, 224)";
         R_side2.style.color="rgb(246, 252, 224)";
@@ -39,4 +39,5 @@ R_body.addEventListener('click',function(){
 
     }
 })
+
 
