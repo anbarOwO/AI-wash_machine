@@ -35,7 +35,7 @@ table:hover{
 @media (min-width:320px) and (max-width:720px){
     table{
         width: 100%;
-        font-size: 16px;
+        font-size: 14px;
     }
     .option{
         width: 23%;
@@ -48,7 +48,7 @@ table:hover{
     }
     .but{
         height:20px ;
-        width: 100%;
+        display: none;
     }
    
 }
