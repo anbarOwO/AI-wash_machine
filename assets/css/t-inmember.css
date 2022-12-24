@@ -26,7 +26,7 @@
 .t-inmemberbox2 {
     background-color: rgb(255, 255, 255);
     width: 80%;
-    height: 70%;
+    height: 300px;
     margin: 2% 0 0 7.5%;
     padding-top: 3%;
     padding-left: 5%;
@@ -56,7 +56,7 @@
     display: block;
     background-color: rgb(255, 243, 138);
     width: 80%;
-    height: 35%;
+    height: 55px;
     margin: 1% 0px 2% 0%;
     border-radius: 10px;
     font-size: 5vmin;
@@ -106,7 +106,7 @@ body{
     position: absolute;
     z-index: 100000;
     font-size: 4vmin;
-    margin-top: -80px;
+    margin-top: 1%;
 }
 
 .y-btn{
