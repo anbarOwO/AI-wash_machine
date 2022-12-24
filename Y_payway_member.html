@@ -25,19 +25,63 @@
 
         <main>
             <div class="option">
-                <a href="">
-                    <div class="option_content">
-                        <input type="button" value="新增信用卡" onclick="add()" id="add_btn">
-                    </div>
-                </a>
                 
-                <a href="">
                     <div class="option_content">
-                        <input type="button" value="刪除信用卡"onclick="delet()">
+                        <input type="button" value="新增信用卡"onclick="add()" id="add_btn1" class="btn">
+                        
                     </div>
-                </a>
+            
+                    <div class="option_content">
+                        <input type="button" value="刪除信用卡"onclick="delet()" id="add_btn2" class="btn">
+                    </div>
+                
+            </div>
+            
+            <div style='display: none;' id="add_pay2">
+                
+               <div class="bank_data">
+                    <div class="bank_name">
+                        土地銀行&nbsp;&nbsp;&nbsp;&nbsp;543269
+                    </div>
 
-                <div class="t-inpayway" style="display: none;" id="add_pay">
+                    <div class="dele_but">
+                        <input type="button" value="刪除">
+                   </div>
+               </div>
+
+               <div class="bank_data">
+                <div class="bank_name">
+                    土地銀行&nbsp;&nbsp;&nbsp;&nbsp;543269
+                </div>
+
+                <div class="dele_but">
+                    <input type="button" value="刪除">
+               </div>
+           </div>
+
+           <div class="bank_data">
+            <div class="bank_name">
+                土地銀行&nbsp;&nbsp;&nbsp;&nbsp;543269
+            </div>
+
+            <div class="dele_but">
+                <input type="button" value="刪除">
+           </div>
+       </div>
+              
+
+               
+
+
+
+                
+               
+            </div>
+
+
+                
+
+                <div class="t-inpayway" style='display: none;' id="add_pay">
                     <h2>AI智慧喜會員中心付款資料</h2>
                     <div class="t-inpaywaybox">
                         <h3>帳號：</h3>
@@ -95,8 +139,8 @@
                     </div>
                     
                     <div class="t-btnbox">
-                        <a href="./index.html">
-                            <button class="t-btn" id="t-btn">完成</button>
+                        <a href="">
+                            <button type="submit" class="t-btn" id="t-btn">完成</button>
                         </a>
                     </div>
                 </div>

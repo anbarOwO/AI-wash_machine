@@ -85,6 +85,30 @@ body{
     font-size: 7vmin;
     border-radius: 10px;
 }
+.t-btn1 {
+    background-color: #63a5a5;
+    color: white;
+    cursor: pointer;
+    border: none;
+    width: 80%;
+    height: 70px;
+    margin-top: 2%;
+   margin-left: 10%;
+    margin-bottom: 5%;
+    font-size: 7vmin;
+    border-radius: 10px;
+   
+}
+.t-btnbox1 {
+    display: inline-block;
+    width: 49%;
+    margin-top: 50px;
+    
+    /*margin-left: 35px;*/
+    height: auto;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
 
 .t-btn:hover {
     background-color: #ffffff;
