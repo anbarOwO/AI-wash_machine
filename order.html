@@ -5,181 +5,185 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../assets/css/order.css">
-    <link rel="stylesheet" type="text/css" href="../assets/css/R-header.css">
-    <link rel="stylesheet" type="text/css" href="../assets/css/R-footer.css">
-
+    <link rel="stylesheet" type="text/css" href="../GitHub/assets/css/order.css">
+    <link rel="stylesheet" href="./assets/css/R-header.css">
+    <link rel="stylesheet" href="./assets/css/R-bill.css">
+    <link rel="stylesheet" href="./assets/css/R-footer.css">
     <title>洗衣訂單</title>
 </head>
 
 <body>
-    <div class="l-orderback">
-        <div class="l-orderbox">
-            <div class="l-orderbox-title">
-                洗衣計價方式
+    <div id="container">
+        <header class="R_header">
+            <div class="R-Menupic">
+                <img src="./assets/img/R_Menu.png" class="R-imgmenu">
             </div>
-            <br>
-            <div class="l-orderbox-option">
-                <div class="l-washway-box">
-                    <div class="l-wash-box-title">
-                        洗滌方式(價格參考洗衣方式)
+            <div class="R-title">
+                <img src="./assets/img/R_titlepic.png" class="R-titlepic">
+            </div>
+        </header>
+
+        <div class="l-orderback">
+            <div class="l-orderbox">
+                <div class="l-washway">
+                    <div class="l-washway-titlebox-icon">
+                        <img src="../GitHub/assets/img/l-bill.png" class="l-washway-titleicon">
+                    </div>
+                    <div class="l-orderbox-title">
+                        洗衣計價方式
+                    </div>
+                    <div class="l-washway-titlebox-icon">
+                        <img src="../GitHub/assets/img/l-bill.png" class="l-washway-titleicon">
+                    </div>
+                </div>
+                
+                <br>
+                <div class="l-orderbox-option">
+                    <div class="l-washway-box">
+                        <div class="l-washway-box-icon-a">
+                            <img src="assets/img/l-dryway.png" class="l-box-icon-a" >
+                        </div>
+                        <div class="l-washway-box-title-a">
+                            洗滌方式(價格請參考洗衣計價)
+                        </div>
                     </div>
                     <select name="washway" class="l-washway">
                         <option value="冷水">冷水</option>
                         <option value="溫水">溫水</option>
                         <option value="熱水">熱水</option>
                     </select>
+                    
                 </div>
-            </div>
 
-            <P>
-            <div class="l-orderbox-option">
-                <div class="l-dryway-box">
-                    <div class="l-wash-box-title">
-                        乾衣方式(價格參考洗衣方式)
+                <P>
+                <div class="l-orderbox-option">
+                    <div class="l-washway-box">
+                        <div class="l-washway-box-icon-a">
+                            <img src="assets/img/l-dryway.png" class="l-box-icon-a" >
+                        </div>
+                        <div class="l-washway-box-title-a">
+                            乾衣方式(價格請參考洗衣計價)
+                        </div>
                     </div>
-                    <input type="radio" name="dryway" value="drying">烘衣
-                    <input type="radio" name="dryway" value="naturally">自然晾曬
-
+                    <div class="l-orderbox-radio-button">
+                        <input type="radio" class="radio-button" name="dryway" value="drying">烘衣
+                        <input type="radio" class="radio-button" name="dryway" value="naturally">自然晾曬
+                    </div>
                 </div>
-            </div>
 
-            <P>
-            <div class="l-orderbox-option">
-                <div class="l-service">
-                    <div class="l-wash-box-title">
-                        其他服務(價格參考洗衣方式)
+                <P>
+                <div class="l-orderbox-option">
+                    <div class="l-washway-box">
+                        <div class="l-washway-box-icon-a">
+                            <img src="assets/img/l-service.png" class="l-box-icon-a" >
+                        </div>
+                        <div class="l-washway-box-title-a">
+                            其他服務(價格請參考洗衣計價)
+                        </div>
                     </div>
-                    <input type="radio" name="service" value="ironing">熨燙
-                    <input type="radio" name="service" value="fold">折衣
+                    <div class="l-orderbox-radio-button">
+                        <input type="radio" class="radio-button" name="service" value="ironing">熨燙
+                        <input type="radio" class="radio-button" name="service" value="fold">折衣
+                    </div>
                 </div>
-            </div>
 
-            <P>
-            <div class="l-orderbox-option">
-                <div class="l-transport">
-                    <div class="l-wash-box-title">
-                        其他服務(價格參考洗衣方式)
+                <P>
+                <div class="l-orderbox-option">
+                    <div class="l-washway-box">
+                        <div class="l-washway-box-icon">
+                            <img src="assets/img/l-howtoai.png" class="l-box-icon" >
+                        </div>
+                        <div class="l-washway-box-title">
+                            配送方式
+                        </div>
                     </div>
-                    <select name="transport" class="l-transport">
-                        <option value="集中櫃">集中櫃</option>
-                        <option value="自行送洗">自行送洗</option>
-                        <option value="外送送洗">外送送洗</option>
-                    </select>
+                    <div class="l-go">
+                        <div class="l-go-back-text">
+                            去程
+                        </div>
+                        <select name="transport" class="l-washway">
+                            <option value="集中櫃">集中櫃</option>
+                            <option value="自行送洗">自行送洗</option>
+                            <option value="外送送洗">外送送洗</option>
+                        </select>
+                    </div>
                     <br>
-                    <select name="transport" class="l-transport">
-                        <option value="集中櫃">集中櫃</option>
-                        <option value="自行送洗">自行送洗</option>
-                        <option value="外送送洗">外送送洗</option>
-                        <option value="代領代收">代領代收</option>
-                    </select>
-                </div>
-            </div>
-
-            <P>
-            <div class="l-orderbox-option">
-                <div class="l-bag">
-                    <div class="l-wash-box-title">
-                        洗衣袋編號
+                    <div class="l-back">
+                        <div class="l-go-back-text">
+                            回程
+                        </div>
+                        <select name="transport" class="l-washway">
+                            <option value="集中櫃">集中櫃</option>
+                            <option value="自行送洗">自行送洗</option>
+                            <option value="外送送洗">外送送洗</option>
+                            <option value="代領代收">代領代收</option>
+                        </select>
                     </div>
-                    <select name="bag" class="l-bag">
-                        <option value="QWE1234">QWE1234</option>
-                        <option value="ASD1234">ASD1234</option>
-                        <option value="ZXC1234">ZXC1234</option>
-                    </select>
                 </div>
-            </div>
 
-            <P>
-            <div class="l-orderbox-option">
-                <div class="l-card">
-                    <div class="l-wash-box-title">
-                        信用卡號
+                <P>
+                <div class="l-orderbox-option">
+                    <div class="l-washway-box">
+                        <div class="l-washway-box-icon">
+                            <img src="../GitHub/assets/img/l-washbag.png" class="l-box-icon" >
+                        </div>
+                        <div class="l-washway-box-title">
+                            洗衣袋編號
+                        </div>
                     </div>
-                    <input type="radio" name="card" value="card1">9876 兆豐visa
-                    <br>
-                    <input type="radio" name="card" value="card2">5432 linebank
-                    <br>
-                    <input type=button onclick="location.href='checkcode.html'"  value="傳送驗證碼到手機0921003012">
-                    <!--
-                    <button type="button" value="傳送驗證碼到手機0921003012" class="btn"  onclick="window.open('/path', '_blank')">Path</button>
-                    -->
-                    <!--
-                    <div class="form-card">
-                        <input type="submit" value="傳送驗證碼到手機0921003012" class="btn">
+                        <select name="bag" class="l-washway">
+                            <option value="QWE1234">QWE1234</option>
+                            <option value="ASD1234">ASD1234</option>
+                            <option value="ZXC1234">ZXC1234</option>
+                        </select>
+                    
+                </div>
+
+                <P>
+                <div class="l-orderbox-option">
+                    <div class="l-washway-box">
+                        <div class="l-washway-box-icon">
+                            <img src="assets/img/l-card.png" class="l-box-icon" >
+                        </div>
+                        <div class="l-washway-box-title">
+                            選擇信用卡付款
+                        </div>
+                    </div>
+
+                    <div class="l-orderbox-radio-button">
+                        <input type="radio" class="radio-button" name="card" value="card1">9876 兆豐visa
                         <br>
-                        <a href="#" target="_blank"><input type="text" value="驗證碼" placeholder="請輸入您的驗證碼"></a>
-                        <input type="submit" value="驗證" class="btn">
-                    </div>-->
-
-                    <!--
-                    <div class="form-card">
-
-                        <input type="button" id="code" value="傳送" />
-
-                        <input type="text" id="input1" />
-
-                        <input type="button" id="yz" onclick="location.href='order.html'"value="驗證" />
-                        
-                             <span id="msg">
-                            <input type="button" id="code">
-                        <button id="subBtn" @click="createCode">傳送驗證碼到手機0921003012</button>
-                        
-                        <input type="text" placeholder="請輸入驗證碼" v-model="inputCode">
-                        <button id="subBtn" @click="isLegalCode">驗證</button>-->
+                        <input type="radio" class="radio-button" name="card" value="card2">5432 linebank
+                        <br>
                     </div>
 
-                    <!--
-                    <div class="check-code">
-                        <input type="text" id="input1">
-                        <input type="button" id="code">
-                        <input type="text" id="input1">
-                    </div>-->
-
+                    <div class="l-to-checkcode-button">
+                        <input type=button class="to-checkcode-button" onclick="location.href='checkcode.html'"  value="傳送驗證碼到手機0921003012">
+                    </div>
+                        
+                
+                    <script type="text/javascript" src="../assets/js/jquery-3.6.3.js"></script>
+                    <script type="text/javascript" src="../assets/js/checkcode.js"></script>
                 </div>
-                <!--
-                <script type="text/javascript">
-                    //createCode() 
-                    {
-                        let codeLength = 6; // 驗證碼長度
-                        let codeChars = new Array(0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
-                            'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
-                            'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'); //驗證碼要隨機挑選的字符
-                        for (var i = 0; i < codeLength; i++) {
-                            let charIndex = Math.floor(Math.random() * 52); // 隨機產生0-52之間的整數
-                            this.nowCode += codeChars[charIndex];
-                        }
-                    }
-             
-                    // 校驗驗證碼
-                    isLegalCode() 
-                    {
-                        if (this.inputCode == this.nowCode) {
-                            alert("驗證碼正確!");
-                        } else {
-                            alert("驗證碼不正確,請重試!");
-                        }
-                    }
-                </script>-->
-                <script type="text/javascript" src="../assets/js/jquery-3.6.3.js"></script>
-                <script type="text/javascript" src="../assets/js/checkcode.js"></script>
             </div>
-
 
         </div>
+
+        <footer class="R-footer">
+            <div class="R-foot-cpic">
+                <img src="./assets/img/R_footercloth.svg" alt="" class="R-cpic">
+            </div>
+            <div class="R-foot-peopic">
+                <img src="./assets/./img/R_footerpeople.png" alt="" class="R-peopic">
+            </div>
+            <div class="R-foot-mappic">
+                <img src="./assets/img/R_footerplaceholder.png" alt="" class="R-mappic">
+            </div>
+        </footer>
+
     </div>
 
-    <footer class="R-footer">
-        <div class="R-foot-cpic">
-            <img src="./assets/img/R_footercloth.svg" alt="" class="R-cpic">
-        </div>
-        <div class="R-foot-peopic">
-            <img src="./assets/./img/R_footerpeople.png" alt="" class="R-peopic">
-        </div>
-        <div class="R-foot-mappic">
-            <img src="./assets/img/R_footerplaceholder.png" alt="" class="R-mappic">
-        </div>
-    </footer>
+   
 
 </body>
 

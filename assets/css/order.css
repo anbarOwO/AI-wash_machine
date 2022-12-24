@@ -1,0 +1,139 @@
+.l-orderback{
+    padding: 2%;
+    border-radius: 10px;
+    border:5px solid 5px ;
+    background:rgba(255, 255, 255, .7);
+    margin: 2%;
+    margin-top: 4%;
+}
+
+.l-orderbox{
+    width: 90%;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+.l-washway{
+    display: flex;
+}
+
+.l-washway-titlebox-icon{
+    width: 15%;
+    margin-top: 2%;
+}
+
+img.l-washway-titleicon{
+    width: 70%;
+    height: 70%;
+    padding: 2%;
+    
+}
+
+.l-orderbox-title{
+    width: 70%;
+    text-align: center;
+    font-size: 32px;
+    padding: 1%;
+}
+
+.l-orderbox-option{
+    width: 100%;
+}
+
+.l-washway-box{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(147, 240, 240);
+    text-align: right;
+}
+
+.l-washway-box-icon{
+    width: 50%;
+}
+
+img.l-box-icon{
+    width: 15%;
+    height: 15%;
+    margin: 1%;
+    margin-top: 2%;
+    margin-right: 5%;
+}
+
+.l-washway-box-title{
+    width: 50%;
+    text-align: left;
+    font-size: 18px;
+    padding: 1%;
+    
+}
+
+.l-washway-box-icon-a{
+    width: 10%;
+}
+
+img.l-box-icon-a{
+    width: 80%;
+    height: 80%;
+    margin: 1%;
+    margin-top: 2%;
+}
+
+.l-washway-box-title-a{
+    width: 90%;
+    text-align: center;
+    font-size: 18px;
+    padding: 1%;
+    
+}
+
+.l-orderbox-option{
+    text-align: center;
+}
+
+select.l-washway{
+    padding: 1%;
+    margin: 1%;
+    width: 50%;
+    font-size: 16px;
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.l-orderbox-radio-button{
+    font-size: 18px;
+    padding: 1%;
+}
+
+input.radio-button{
+    width: 15px;
+    height: 15px;
+    margin: 2%;
+}
+
+.l-to-checkcode-button{
+    margin: 2%;
+}
+
+input.to-checkcode-button{
+    font-size: 16px;
+    padding: 2%;
+}
+
+.l-option-icon{
+    width: 30%;
+
+}
+.l-option-icon > img{
+    width: 60%;
+    height: 60%;
+    text-align: right;
+}
+.l-optiom-text{
+    width: 70%;
+    text-align: left;
+}
