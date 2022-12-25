@@ -49,17 +49,17 @@
     overflow: hidden;
     transition: 0.2s;
 }
-.R_side1,.R_side2,.R_side3,.R_side4,.R_side5,.R_side6{
+.R_side1,.R_side2,.R_side3,.R_side4{
     width: 100%;
-    height: 17%;
-    padding-top: 1%;
+    height: 25%;
+    padding-top: 5%;
     text-align: center;
     cursor: pointer;
     background-color: rgb(246, 252, 224);
 }
-.R_side1:hover,.R_side2:hover,.R_side3:hover,.R_side4:hover,.R_side5:hover,.R_side6:hover{
+.R_side1:hover,.R_side2:hover,.R_side3:hover,.R_side4:hover{
     font-weight: 800;
-    background-color:#b2d0fb;
+    background-color:rgb(246, 252, 224);
     
 }
 
