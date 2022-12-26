@@ -1,0 +1,292 @@
+
+.pic-main{
+    display: flex;
+    background-size: cover;
+}
+ul{
+   
+    list-style: none;
+   
+}
+   
+a{
+   
+       text-decoration: none;
+   
+}
+   
+#container{
+   
+    position: relative;
+   
+    width: 500px;
+   
+    height: 500px;
+   
+    margin: 20px auto;
+   
+    overflow: hidden; /*羣≫��沿����Ū¨腓坂�綣球����*/
+   
+}
+   
+#container .parent{
+   
+    position: absolute;
+   
+    width: 7500px; /*�翫������絮ら�桁墾鐚�500*5=2500*/
+   
+    height: 500px;
+   
+}
+  
+#container .parent li{
+   
+    float: left;
+   
+    width: 500px;
+   
+    height: 100%;
+   
+}
+   
+#container .parent li img{
+   
+    width: 100%;
+   
+    height: 100%;
+   
+}
+   
+#container .btnLeft,#container .btnRight{
+   
+       width: 30px;
+   
+       height: 30px;
+   
+      background-color: #9E9E9E;
+   
+      border-radius: 20%;
+   
+      opacity: 80%;
+   
+      position: absolute; /*������阪����蕁�ず絮�container*/
+   
+      top: 0;
+   
+      bottom: 0;
+   
+      margin: auto;
+   
+      font-size: 20px;
+   
+      color: white;
+   
+      text-align: center;
+   
+      line-height: 30px;
+   
+}
+   
+#container .btnLeft{
+   
+      left: 10px;
+   
+}
+   
+#container .btnRight{
+   
+    right: 10px;
+   
+}
+   
+#container .btnLeft:hover,#container .btnRight:hover{
+   
+    opacity: 90%;
+   
+    cursor: pointer;
+   
+}
+   
+    /*��絮�*/
+   
+#container .modal{
+   
+    width: 100%;
+   
+    height: 80px;
+   
+    background: rgba(0,.3);
+   
+    position: absolute;
+   
+    left: 0;
+   
+    bottom: 0;
+   
+    line-height: 40px;
+   
+    padding: 20 40px;
+   
+    box-sizing: border-box;
+    text-align: center;
+   
+}
+   
+#container .modal .title{
+   
+    float: left;
+   
+    color: #fff;
+   
+    font-size: 12px;
+   
+}
+   
+#container .modal .dots{
+   
+    float: right;
+   
+    position: absolute;
+   
+    bottom: 10px;
+   
+    left: 70px;
+    top:60px
+
+}
+   
+#container .modal .dots li{
+   
+       width: 15px;
+       height: 15px;
+       border-radius: 50%;
+       float: left;
+       /*��札篏睡���紂���*/
+       /*display: inline-block;*/
+       margin: 0 5px;
+       cursor: pointer;
+   
+}
+  
+.clearfix::after{
+  
+       content: "";
+       
+       display: block;
+   
+       clear: both;
+
+       padding-top: 20px;
+   
+}
+   
+.on{
+       background-color:black;
+}
+   
+.off{
+       background-color: gray;
+}
+
+
+
+
+.before_all{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    border:5px solid 5px ;
+    background:rgba(255, 255, 255, .7);
+    text-align: center;
+    width: 90%;
+    align-items:center;
+    justify-content:center; 
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+/*標題*/
+.before_title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/*圖片底框*/
+
+.before_pic{
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    overflow:hidden;
+}
+
+img.before_img{
+    max-width: 100%;
+    height: 300px;
+    
+}
+
+#first_pic.img_slide{
+    width: 100%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*圖片*/
+
+
+/*全部隱藏 Js 來開啟
+*/
+.img_slides{
+    display: none;
+    width: 100%;
+    
+    overflow: hidden;
+    margin: auto;
+}
+
+/*圖片比例符合框架*/
+.before_pic>img{
+    width: 100%;
+    height: 100%;
+   
+}
+/*按鈕*/
+.btn{
+    text-align: center;
+    padding: 1% 0 0 0;
+    width: 150px;
+    margin: auto;
+    height: 50px;
+    
+}
+.btn>input{
+    background-color: #63a5a5;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width:100%;
+    height: 100%;
+}

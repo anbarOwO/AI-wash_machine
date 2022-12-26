@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首頁</title>
+    <link rel="stylesheet" href="./assets/css/L_menu.css">
+    <link rel="stylesheet" href="./assets/css/R-header.css">
+    <link rel="stylesheet" href="./assets/css/R-bill.css">
+    <link rel="stylesheet" href="./assets/css/R-footer.css">
+
+    <script src="./assets/js/L_menu.js"></script>
+</head>
+<body id="R_body">
+    <div id="container">
+        <div class="R_side" id="R_side">
+            <div class="R_side1" id="R_side1">
+                APP教學
+            </div>
+            <div class="R_side2" id="R_side2">
+                服務項目
+            </div>
+            <div class="R_side3" id="R_side3">
+                常見問題
+            </div>
+            <div class="R_side4" id="R_side4">
+                洗衣簡介
+            </div>
+        </div>
+        <header class="R_header">
+            <div class="R-Menupic" id="R_Menupic">
+                <img src="./assets/img/R_Menu.png" class="R-imgmenu">
+            </div>
+            <div class="R-title">
+                <img src="./assets/img/R_titlepic.png" class="R-titlepic">
+            </div>
+        </header>
+    <div class="con">
+        <!--
+        <main>-->
+            <div class="l-menu-box">
+
+                <div class="l-menu-title-box">
+                    <div class="l-menu-title">
+                        AI智慧喜 洗衣APP教學
+                    </div>
+                </div>
+                <!--
+                <div class="l-menu-picbox-back">
+                    <div class="l-menu-picbox-number">
+                        1/3
+                    </div>
+
+                    <div class="l-menu-pic">
+                        <img src="./assets/img/l-convenience.png" class="menu-pic">
+                    </div>
+
+                    <div class="l-menu-pic-text">
+
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)"></a>
+                    <a class="next" onclick="plusSlides(1)"></a>
+                </div>
+
+                <div class="l-menu-picbox-back">
+                    <div class="l-menu-picbox-number">
+                        2/3
+                    </div>
+
+                    <div class="l-menu-pic">
+                        <img src="./assets/img/l-ai.png" class="menu-pic">
+                    </div>
+
+                    <div class="l-menu-pic-text">
+
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)"></a>
+                    <a class="next" onclick="plusSlides(1)"></a>
+                </div>
+
+                <div class="l-menu-picbox-back">
+                    <div class="l-menu-picbox-number">
+                        3/3
+                    </div>
+
+                    <div class="l-menu-pic">
+                        <img src="" class="menu-pic">
+                    </div>
+
+                    <div class="l-menu-pic-text">
+
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)"></a>
+                    <a class="next" onclick="plusSlides(1)"></a>
+                </div>
+
+                <div class="l-menu-pic-doc">
+                    <span class="dot" onclick="currentSlide(1)"> </span>
+                    <span class="dot" onclick="currentSlide(2)"> </span>
+                    <span class="dot" onclick="currentSlide(3)"> </span>
+                </div>-->
+
+                <!-- Slideshow container -->
+            <div class="pic-main">
+                <div id="container">
+                    <ul class="parent" style="left: 0;">
+                
+                        <li><img src="./assets/img/l-menu-1.png"></li>
+                        <li><img src="./assets/img/l-menu-2.png"></li>
+                        <li><img src="./assets/img/l-menu-3.png"></li>
+                        <li><img src="./assets/img/l-menu-4.png"></li>
+                        <li><img src="./assets/img/l-menu-5.png"></li>
+                        <li><img src="./assets/img/l-menu-6.png"></li>
+                        <li><img src="./assets/img/l-menu-7.png"></li>
+                        <li><img src="./assets/img/l-menu-8.png"></li>
+                        
+                    </ul>
+                    
+                    
+                    
+                    <div class="btnLeft">&lt;</div>
+                    
+                    <div class="btnRight">&gt;</div>
+                    
+                            
+                    <div class="modal">
+        
+                        <div class="dots">
+                        
+                            <ul class="clearfix">
+                        
+                                <li class="on"></li>
+                                
+                                <li class="off"></li>
+                                
+                                <li class="off"></li>
+                                
+                                <li class="off"></li>
+                            
+                                <li class="off"></li>
+                                
+                                <li class="off"></li>
+                                
+                                <li class="off"></li>
+                                
+                                <li class="off"></li>
+                                
+                            
+                            </ul>
+                        
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+            </div>
+                
+            <script type="text/javascript">
+              
+                var imgShow = document.getElementsByClassName('parent')[0],dotList = document.querySelectorAll('.dots >.clearfix > li');
+                
+                var btnLeft = document.getElementsByClassName('btnLeft')[0],btnRight = document.getElementsByClassName('btnRight')[0];
+                
+                var dotLen = dotList.length,index = 0; 
+    
+                //圓點
+                
+                function showRadius() 
+                {
+                
+                    for(var i = 0; i < dotLen; i++) 
+                        {
+                            if(dotList[i].className === "on")
+                            {                        
+                            dotList[i].className = "off";               
+                            }
+                        }
+                
+                    dotList[index].className = "on";
+                }
+                btnLeft.onclick = function() 
+                {            
+                    index--;
+                
+                    if(index < 0)
+                    { 
+                    
+                        index = 8;
+                    
+                    }
+            
+                    showRadius();
+                
+                    var left;
+                
+                    var imgLeft = imgShow.style.left;
+                
+                    if(imgLeft === "0px") 
+                    { /*當是第1張時，每張圖片左移，移14張圖，位置為-(14*500)*/
+                
+                        left = -3500;
+                    }
+                
+                    else
+                    {
+                
+                        left = parseInt(imgLeft) + 500; /*由於left為負數，每左移一張加500*/
+                
+                    }
+                
+                    imgShow.style.left = left + "px";
+                
+                }
+                
+               
+                
+                btnRight.onclick = function() 
+                {
+                
+                 index++;
+                
+                    if(index > 7)
+                    { 
+                    
+                        index = 0;
+                    
+                    }
+                    
+                    showRadius();
+                    
+                    var right;
+                    
+                    var imgLeft = imgShow.style.left;
+                    
+                    if(imgLeft === "-3500px")
+                    { 
+                    
+                    right = 0;
+                    
+                    }
+                    
+                    else
+                    {
+                    right = parseInt(imgLeft) - 500; /*由於left為負數，每右移一張減500*/
+                    }
+        
+                    imgShow.style.left = right + "px";
+                
+                }
+                
+       
+              </script>
+
+
+                <div class="slideshow-container">
+
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fade">
+                        
+                        <img src="./assets/img/l-menu-1.png" style="width:100%">
+                        
+                    </div>
+
+                    <div class="mySlides fade">
+                        
+                        <img src="./assets/img/l-menu-2.png" style="width:100%">
+                        
+                    </div>
+
+                    <div class="mySlides fade">
+                        
+                        <img src="./assets/img/l-menu-3.png" style="width:100%">
+                        
+                    </div>
+
+                    <div class="mySlides fade">
+                        
+                        <img src="./assets/img/l-menu-4.png" style="width:100%">
+                        
+                    </div>
+
+                    <div class="mySlides fade">
+                        
+                        <img src="./assets/img/l-menu-5.png" style="width:100%">
+                        
+                    </div>
+
+                    <div class="mySlides fade">
+                        
+                        <img src="./assets/img/l-menu-6.png" style="width:100%">
+                        
+                    </div>
+
+                    <div class="mySlides fade">
+                        
+                        <img src="./assets/img/l-menu-7.png" style="width:100%">
+                        
+                    </div>
+
+                    <div class="mySlides fade">
+                        
+                        <img src="./assets/img/l-menu-8.png" style="width:100%">
+                        
+                    </div>
+
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+
+
+                <!-- The dots/circles -->
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                    <span class="dot" onclick="currentSlide(7)"></span>
+                    <span class="dot" onclick="currentSlide(8)"></span>
+                    
+                </div>
+
+            
+            </div>
+        <!--    
+        </main>-->
+    </div>  
+        
+        <footer class="R-footer">
+            <div class="R-foot-cpic">
+                <img src="./assets/img/R_footercloth.svg" alt="" class="R-cpic">
+            </div>
+            <div class="R-foot-peopic">
+                <img src="./assets/./img/R_footerpeople.png" alt="" class="R-peopic">
+            </div>
+            <div class="R-foot-mappic">
+                <img src="./assets/img/R_footerplaceholder.png" alt="" class="R-mappic">
+            </div>
+        </footer>
+
+
+    </div>
+    <script src="./assets/js/nav.js"></script>
+</body>
+</html>
