@@ -1,0 +1,84 @@
+h3{
+    margin: 4%;
+}
+.l-washway-backbox{
+    width: 100%;
+    display: block;
+    align-items:center;
+    justify-content:center; 
+    margin-top: 30px;
+}
+
+
+.l-washway-backbox-right{
+    width: 100%;
+    border-radius: 10px;
+    border:5px solid 5px ;
+    background:rgba(255, 255, 255, .7);
+}
+.l-washway-right{
+    width: 100%;
+    display: inline-block;
+}
+
+.l-washway-backbox-right-text-color{
+    text-align: left;
+    margin-left: 2%;
+    width: 90%;
+    font-size: 18px;
+    font-weight: 500;
+    color: red;
+}
+
+.l-washway-backbox-right-text{
+    text-align: left;
+    
+    width: 95%;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 2%;
+}
+
+.l-washway-backbox-right-title{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+ul.l-washway-backbox-left {
+    margin-top: 5%;
+    display: flex;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    padding: 0%;
+
+}
+
+.l-washway-backbox-left-text{
+    font-size: 18px;
+    width: 90%;
+    margin: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+a{
+    width: 25%;
+}
+
+.l-washway-backbox-left-title{
+    font-size: 18px;
+    font-weight: 700;
+    width: 90%;
+    margin: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    background-color: azure;
+}
+
