@@ -20,10 +20,6 @@ h2{
     padding:0.1%
     
 }
-.war_pic{
-    background-color: white;
-    padding:0.1%
-}
 
 /*打勾勾跟確定*/
 .check{
@@ -41,7 +37,7 @@ h2{
     .content{
         width: 85%;
         height: 100%;
-        margin: 6% 3% auto 3%;
+        margin: 6% auto auto 9.5%;
     }
     .title{
         font: size 20px;;
@@ -52,5 +48,4 @@ h2{
         height: 500px;
         overflow: scroll;
     }
-    .war_pic
 }
