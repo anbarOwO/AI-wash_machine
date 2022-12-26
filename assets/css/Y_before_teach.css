@@ -1,29 +1,47 @@
+/*藍色背景框框*/
 .before_all{
     margin: 3% auto auto auto;
     background-color: #d0f1f8;
     text-align: center;
-    width: 45%;
+    width: 40%;
     font-size: 30px;
     font-weight: bold;
 }
-
+/*標題*/
 .before_title{
     text-align: center;
     width: 100%;
+    padding-top: 1.5%;
 }
+
+/*圖片*/
 
 .before_pic{
-    width: 450px;
     margin: auto;
-    height: 600px;
     padding-top: 1%;
 }
+/*全部隱藏 Js 來開啟*/
+.img_slide{
+    width: 450px;
+    height: 600px;
+    overflow: hidden;
+    margin: auto;
+}
+.img_slides{
+    display: none;
+    width: 450px;
+    height: 600px;
+    overflow: hidden;
+    margin: auto;
+}
 
+/*圖片比例符合框架*/
 .before_pic>img{
     width: 100%;
     height: 100%;
+   
 }
-
+/*按鈕*/
 .btn{
     text-align: center;
     padding: 1% 0 0 0;
@@ -40,3 +58,4 @@
     width:100%;
     height: 100%;
 }
+
