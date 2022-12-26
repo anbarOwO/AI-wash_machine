@@ -1,0 +1,62 @@
+.checkcode-box{
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    text-align: center;
+    
+}
+.checkcode-box >input{
+    text-align: center;
+}
+input#code{
+    margin-left: 5%; ;
+    margin-right: 5%;
+    float: right;
+    font-size: 18px;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    height: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 80%;
+}
+
+input#input1{
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+    font-size: 18px;
+    height: 30px;
+    margin-top: 1%;
+    width: 85%;
+}
+
+.checkcode-checkbutton{
+    text-align: center;
+    margin: 5%;
+    width: 90%;
+    
+}
+
+input#yz{
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    font-size: 16px;
+    padding-left:5%;
+    padding-right:5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.code-button{
+    width: 40%;
+    text-align: center;
+}
+
+.code-text{
+    width: 60%;
+    text-align: center
+}

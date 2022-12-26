@@ -73,8 +73,11 @@
         font-size: 5vmin;
         margin-left: 8.5%;
     }
-    #del_but,#add_but{
+    #del_but{
         width: 20%;
+    }
+    #add_but{
+        width: 18%;
     }
     #add{
         margin-left: 6%;
@@ -82,9 +85,9 @@
         height: 22px;
     }
     .Y-btn{
-       width: 35%;
+       width: 38%;
        height: 50px;
-       margin-left: 9.5%;   
+       margin-left: 7%;   
        margin-top: 5%;
     }
     .t-inmemberbox>p{
@@ -93,3 +96,4 @@
     .t-inmember>h2{
         font-size: 46px;
     }
+}
