@@ -1,3 +1,6 @@
+body{
+    background-image:url(../img/backgrooundpic.jpg);
+}
 .R_header{
     height: 73px;
     background-color: #91cae6;
