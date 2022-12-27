@@ -6,11 +6,12 @@
 
 .banner_container {
     position: relative;
-    margin: 100px;
+    margin: 100px auto auto auto;
     width: 250px;
     height: 400px;
+    
     /* 超出隐藏 */
-    /*overflow: hidden;  */
+    overflow: hidden;
 }
 
 ul.img_box {
@@ -26,12 +27,13 @@ ul.img_box {
     list-style: none;
     width: 250px;
     height: 400px;
+    margin-left: 15px;
 }
 
 /* 图片大小 */
 .img_box li img {
     width: 400px;
-    border: 1px solid black;
+    
   
 }
 
