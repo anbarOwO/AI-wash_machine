@@ -1,6 +1,6 @@
 
 .before_all{
-    margin-top: 10%;
+    margin-top: 20%;
     margin-bottom: 5%;
     border-radius: 10px;
     border:5px solid 5px ;
@@ -26,10 +26,10 @@
 
 .before_pic{
     width: 100%;
-    padding-top: 5%;
+    padding-top:5%;
     padding-bottom: 5%;
     overflow:hidden;
-    height: 290px;
+    height: 600px;
     align-items:center;
     justify-content:center; 
     
@@ -37,9 +37,10 @@
 }
 
 img.before_img{
-    width: 120%;
-    height: 300px;
-    margin-left: 15%;;
+    width: 250%;
+    height: 700px;
+    margin-left: -20%;
+    margin-top: -15%;
     
 }
 
