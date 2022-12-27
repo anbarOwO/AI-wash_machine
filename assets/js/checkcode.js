@@ -52,7 +52,7 @@ var code;
             alert("輸入正確");
             onclick=function(){
 
-                window.location.href = "email.html";
+                window.location.href = "./Y_check.html";
         
             };
         }
