@@ -12,7 +12,7 @@ document.getElementById("first_pic") .style.display="none"
   if(btn_t==x.length){
     document.getElementById("next").value = "關閉"
     document.getElementById("next").onclick =function(){
-        window.location.href = "T_memberdetail.html";
+        window.location.href = "./T_memberdetail.html";
     } 
   }
   if (slideIndex > x.length) {slideIndex = 1}
