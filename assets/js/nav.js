@@ -35,4 +35,19 @@ R_body.addEventListener('click',function(){
     }
 })
 
+R_side1.addEventListener('click',function(){
+    location.href='L_menu.html'
+})
+R_side2.addEventListener('click',function(){
+    location.href='L_service.html'
+})
+R_side3.addEventListener('click',function(){
+    location.href='email.html'
+})
+R_side4.addEventListener('click',function(){
+    location.href='L_washway_1.html'
+})
+
+
+
 
