@@ -355,6 +355,7 @@ body {
     }
     .t-lineberbtn{
         margin-left: 15%;
+        font-size: 5vmin;
     }
     /*#progressBar span:nth-child(9) {
         left: 100%;
