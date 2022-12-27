@@ -21,7 +21,7 @@
     margin: 0 0;
     z-index: 1;
     height: 100%;
-
+    cursor: pointer;
     background-color: #91cae6;
 }
 
@@ -36,7 +36,7 @@
 .R-foot-peopic {
     margin: 0.5% 0 0 0;
     height: 100%;
-
+    cursor: pointer;
     background-color: #91cae6;
     z-index: 1;
 }
@@ -52,7 +52,7 @@
     margin: 0.3% 0 0 0;
     z-index: 1;
     height: 100%;
-
+    cursor: pointer;
     background-color: #91cae6;
 }
 
