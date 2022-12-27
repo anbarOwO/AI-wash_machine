@@ -23,6 +23,7 @@ lis[0].className = 'cur'
 function swapImg() {
     // 修改img_box的定位，往左偏移 index * imgContainerW
     img_box.style.left = -index * imgContainerW + 'px';
+    
     // 排他算法
     for (let i = 0; i < lis.length; i++) {
         lis[i].className = '';

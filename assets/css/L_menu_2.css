@@ -6,11 +6,11 @@
 
 .banner_container {
     position: relative;
-    margin: 100px;
-    width: 400px;
-    height: 250px;
+    margin: 100px auto auto auto;
+    width: 250px;
+    height: 400px;
     /* 超出隐藏 */
-    overflow: hidden;  
+    overflow: hidden;
 }
 
 ul.img_box {
@@ -24,12 +24,16 @@ ul.img_box {
 .img_box li {
     float: left;
     list-style: none;
+    width: 250px;
+    height: 400px;
 }
 
 /* 图片大小 */
 .img_box li img {
     width: 400px;
+    margin-left: -87px;
 }
+
 
 /* 小圆点 */
 .sel_box {
@@ -38,6 +42,7 @@ ul.img_box {
     left: 50%;
     transform: translateX(-50%);
     margin-top: 20%;
+    width: 132px;
 }
 
 .sel_box li {
@@ -70,7 +75,7 @@ ul.img_box {
 .right_btn {
     position: absolute;
     top: 50%;
-    left: 375px;
+    left: 225px;
     transform: translateY(-50%);
     width: 25px;
     height: 30px;
