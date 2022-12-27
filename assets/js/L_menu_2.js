@@ -1,3 +1,5 @@
+//
+/*
 let img_box = document.querySelector('.img_box');
 let imgs = document.querySelectorAll('img');
 let sel_box = document.querySelector('.sel_box')
@@ -118,4 +120,47 @@ left_btn.addEventListener('mouseout', function() {
 
 right_btn.addEventListener('mouseout', function() {
     timer = setInterval(swapFormat, 3000)
-})
+})*/
+
+
+
+var cot=0;//设置一个计数器，初始值为0；作用是用来监听点击切换的时候哪一个图片应该隐藏或者显示  
+function nex(){  
+  if(cot<=1){  
+    $('.imgs img').eq(cot).animate({'margin-left':'-250px'},250);  
+    cot++;  
+  }  
+}  
+function pre(){  
+  if(cot>0){  
+    cot--;  
+    $('.imgs img').eq(cot).animate({'margin-left':'0'},250);  
+  }  
+}  
+
+
+window.onload=function(){
+    var btn1=document.getElementById("pre");
+    var btn2=document.getElementById("next");
+    var img=document.getElementById("img1");
+    var imgarr=["images/1.jpg","images/2.jpg","images/3.jpg","images/4.jpg","images/5.jpg","images/6.jpg"];
+    var index=0;
+    var info=document.getElementById("pd");
+        info.innerHTML="一共"+imgarr.length+"张 图片 ，当前 第"+(index+1)+"张";                
+    btn1.onclick=function(){    
+        index--;
+        if(index<0){
+            index=imgarr.length-1;
+        }
+        img.src=imgarr[index];
+            info.innerHTML="一共"+imgarr.length+"张 图片 ，当前 第"+(index+1)+"张";
+    };
+    btn2.onclick=function(){    
+        index++;
+        if(index>imgarr.length-1){
+            index=0;
+        }
+        img.src=imgarr[in000dex];
+        info.innerHTML="一共"+imgarr.length+"张 图片 ，当前 第"+(index+1)+"张";
+    };
+};

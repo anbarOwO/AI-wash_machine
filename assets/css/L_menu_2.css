@@ -86,3 +86,17 @@ ul.img_box {
     background-color: red!important;
     transform: scale(1.3);
 }
+
+
+
+*{
+    padding: 0;
+    margin:0;
+}
+.outer{
+    width:640px;
+    height:453px;
+    margin:100px auto;
+    
+    text-align: center;
+}
