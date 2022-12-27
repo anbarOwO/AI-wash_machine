@@ -10,8 +10,8 @@
     width: 250px;
     height: 400px;
     /* 超出隐藏 */
-    /*overflow: hidden;*/
-    border: 1px solid black;
+    overflow: hidden;
+    /*border: 1px solid black;*/
 }
 
 ul.img_box {
