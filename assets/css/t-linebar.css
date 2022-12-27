@@ -128,7 +128,24 @@ body {
     height: 10%;
     text-align: center;
 }
-
+.t-lineberbtn{
+    background-color: #63a5a5;
+    color: white;
+    cursor: pointer;
+    border: none;
+    width: 50%;
+    height: 70px;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.t-lineberbtn:hover {
+    background-color: #ffffff;
+    color: rgb(5, 5, 5);
+    transition: 0.5s;
+}
 .t-linebarword>p {
     font-size: 6vmin;
     background-color: aliceblue;
@@ -335,6 +352,9 @@ body {
         position: absolute;
         margin-left: -50%;
         background: #ccc;
+    }
+    .t-lineberbtn{
+        margin-left: 15%;
     }
     /*#progressBar span:nth-child(9) {
         left: 100%;
