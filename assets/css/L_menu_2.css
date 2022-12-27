@@ -10,7 +10,8 @@
     width: 250px;
     height: 400px;
     /* 超出隐藏 */
-    overflow: hidden;
+    /*overflow: hidden;*/
+    border: 1px solid black;
 }
 
 ul.img_box {
@@ -90,18 +91,4 @@ ul.img_box {
 .sel_box .cur {
     background-color: red!important;
     transform: scale(1.3);
-}
-
-
-
-*{
-    padding: 0;
-    margin:0;
-}
-.outer{
-    width:640px;
-    height:453px;
-    margin:100px auto;
-    
-    text-align: center;
 }

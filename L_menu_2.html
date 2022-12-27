@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/L_menu_2.css">
-    <link rel="stylesheet" href="./assets/js/jquery-3.6.3.js">
 </head>
 <body>
     <div class="banner_container">
         <!-- 6张图片 -->
         <ul class="img_box">
+            <li><img src="./assets/img/l-menu-8.png" alt=""></li>
+            <li><img src="./assets/img/l-menu-8.png" alt=""></li>
             <li><img src="./assets/img/l-menu-1.png" alt=""></li>
             <li><img src="./assets/img/l-menu-2.png" alt=""></li>
             <li><img src="./assets/img/l-menu-3.png" alt=""></li>
@@ -20,6 +21,7 @@
             <li><img src="./assets/img/l-menu-6.png" alt=""></li>
             <li><img src="./assets/img/l-menu-7.png" alt=""></li>
             <li><img src="./assets/img/l-menu-8.png" alt=""></li>
+            <li><img src="./assets/img/l-menu-1.png" alt=""></li>
         </ul>
     
         <!-- 中间圆点 -->
@@ -39,32 +41,6 @@
         <div class="left_btn">&lt;</div>
         <!-- 右箭头 -->
         <div class="right_btn">&gt;</div>
-    </div>
-
-    <div style="width: 250px;margin:auto;overflow:hidden"><!-- 这个最外围的容器div宽度为900px，每张图宽为300px，所以只显示3张，剩下的图超出容器隐藏起来 -->  
-        <div class="imgs" style="width:10000px;"><!--这个div的作用是让所有的图片都排在同一水平上，这样子切换的时候效果会更好-->  
-            <img src="./assets/img/l-menu-1.png" /><!--这里的图片换上到时候自己对应的图片-->  
-            <img src="./assets/img/l-menu-2.png" />  
-            <img src="./assets/img/l-menu-3.png" />  
-            <img src="./assets/img/l-menu-4.png" />  
-            <img src="./assets/img/l-menu-5.png" />  
-            <img src="./assets/img/l-menu-6.png" />
-            <img src="./assets/img/l-menu-7.png" />  
-            <img src="./assets/img/l-menu-8.png" />   
-        </div>  
-        <div>  
-            <div onclick="pre()" style="float:left;cursor:pointer">上一页</div>  
-            <div onclick="nex()" style="float:right;cursor:pointer">下一页</div>  
-        </div>  
-    </div>  
-
-    <div class="outer">
-        <p id="pd"></p>
-        <img src="./assets/img/l-menu-1.png"  id="img1" />
-        <img src="./assets/img/l-menu-2.png"  id="img1" />
-        <button id="pre">上一张</button>
-        <button id="next">下一张</button>
-         
     </div>
     
     <!-- 引入js代码 -->
