@@ -11,13 +11,13 @@ table:hover{
 }
 
 .date_sel{
-    margin-left:26%;
+    margin-left:27%;
     margin-top: 3%;
 
    
 }
 .option{
-    width: 180px;
+    width: 330px;
     height:50px;
     font-size: 20px;
 }
@@ -38,7 +38,7 @@ table:hover{
         font-size: 14px;
     }
     .option{
-        width: 22%;
+        width: 46%;
         height:15px;
         font-size: 8px;
     }
