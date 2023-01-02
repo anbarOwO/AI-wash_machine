@@ -35,8 +35,11 @@ input#input1{
     text-align: center;
     margin: 5%;
     width: 90%;
-    
 }
+.container{
+    padding-bottom: 530px;
+}
+
 
 input#yz{
     margin-left: 2%;

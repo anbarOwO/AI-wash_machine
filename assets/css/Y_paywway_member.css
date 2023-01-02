@@ -7,6 +7,7 @@
 .option_content{
     display: inline-block;
     width: 49.7%;
+    
 }
 .option_content>input{
     position:sticky;
@@ -65,7 +66,13 @@
 
         font-size: 24px;
     }
-
     .bank_data{
-        width: 100%;
+        width: 370px;
+    }
+    .R-footer{
+        position: fixed;
+        z-index: 25;
+        top: 85%;
+        width: 90%;
+    }
 }
