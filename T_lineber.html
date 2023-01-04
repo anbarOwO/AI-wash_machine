@@ -109,6 +109,12 @@
                 <button class="t-lineberbtn" id="t-lineberbtn">更改取回方式</button>
           
         </div>
+
+        <div class="t-linebarword">
+         
+            <button class="t-lineberbtn" id="t-lineberbtn2" style="pointer-events: none;background-color: lightgray;" onclick="make()">生成代收訂單編號</button>
+      
+    </div>
         <div class="t-linebarword">
             <p>統計可領回時間:2023/0101</p>
         </div>
@@ -117,7 +123,7 @@
                 送洗方式 <br>取回方式
             </div>
             <div class="t-inmidbox" style="margin-left:55% ;">
-                乾洗模式 <br> 自行取回
+                乾洗模式 <br> <div id="out">代領代收</div>
             </div>
         </div>
         <div class="t-lastbox">
@@ -149,6 +155,11 @@
 <script src="./assets/js/t-linebar.js"></script>
 <script src="./assets/js/nav.js"></script>
 <script src="./assets/js/change_but.js"></script>
+<script>
+    function make(){
+        alert("您的訂單編號是:5125，代收訂單編碼為5825(10分鐘內有效)，勿隨意提供給他人")
+}
+</script>
 
 
 </html>
