@@ -35,3 +35,17 @@
 .order_num{
     padding-top: 3%;
 }
+
+@media (min-width:320px) and (max-width:720px){
+    .container{
+        width: 75%;
+        font-size: 24px;
+        margin-top: 25%;
+        margin-bottom: 80%;
+        height: 300px;
+    }
+    .btn{
+        font-size: 18px;
+        margin-bottom: 12%;
+    }
+}
