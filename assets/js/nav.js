@@ -61,7 +61,9 @@ R_peopic.addEventListener('click',function(){
 R_mappic.addEventListener('click',function(){
     location.href='R_shop.html'
 })
-
+Y_change.addEventListener('click',function(){
+    location.href='Y_another.html'
+})
 
 
 
