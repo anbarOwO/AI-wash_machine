@@ -162,3 +162,10 @@ label.email-table-box-title{
 .buttontd{
     text-align: center;
 }
+@media (min-width:320px) and (max-width:720px){
+    table {
+        width: 370px;
+        font-size: 18px;
+        margin-left:-14%;
+    }
+}
