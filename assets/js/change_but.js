@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 var change = setTimeout(change, 10000);
+=======
+var change = setTimeout(change , 10000);
+>>>>>>> parent of f935ae1 (25)
 =======
 var change = setTimeout(change , 10000);
 >>>>>>> parent of f935ae1 (25)
