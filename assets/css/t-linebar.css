@@ -141,7 +141,23 @@ body {
     font-size: 30px;
     border-radius: 10px;
 }
+.t-lineberbtn2{
+    background-color: #63a5a5;
+    color: white;
+    cursor: pointer;
+    border: none;
+    width: 50%;
+    margin-left: 21%;
+    height: 70px;
+    font-size: 30px;
+    border-radius: 10px;
+}
 .t-lineberbtn:hover {
+    background-color: #ffffff;
+    color: rgb(5, 5, 5);
+    transition: 0.5s;
+}
+.t-lineberbtn2:hover {
     background-color: #ffffff;
     color: rgb(5, 5, 5);
     transition: 0.5s;
@@ -356,6 +372,14 @@ body {
     .t-lineberbtn{
         margin-left: 15%;
         font-size: 5vmin;
+        height: 30px;
+        width: 60%;
+    }
+    .t-lineberbtn2{
+        margin-left: 19%;
+        font-size: 5vmin;
+        height: 30px;
+        width: 60%;
     }
     /*#progressBar span:nth-child(9) {
         left: 100%;
