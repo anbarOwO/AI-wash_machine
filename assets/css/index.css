@@ -17,11 +17,49 @@ body{
     height: 100%;
     width: 100%;
 }
+/*button*/
+.login_btn{
+    width: 60%;
+    text-align: center;
+    margin: -3% AUTO AUTO auto;
+    margin-top: 3%;
+}
+.log_in{
+    padding-bottom: 15px;
+}
+.log_in>input{
+    height: 40px;
+    width: 500px;
+    background-color: #63a5a5;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.log_out>input{
+    height: 40px;
+    width: 500px;
+    background-color: #63a5a5;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
 @media (min-width:320px) and (max-width:720px){
     .R_pic{
         width: 100%;
     }
     .R_title{
         margin-top: 40%;
+    }
+    /*button*/
+    .log_in>input{
+        margin: auto;
+        width: 180px;
+        font-size: 20px;
+    }
+    .log_out>input{
+        margin: auto;
+        width: 180px;
+        font-size: 20px;
     }
 }
