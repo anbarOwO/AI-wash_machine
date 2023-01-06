@@ -16,7 +16,10 @@ function change(){
         }
         
         }
-    document.getElementById('logout').onclick=function(){window.location.href = "./logout.jsp";}
+        
+    document.getElementById('logout').onclick=function(){
+        window.location.href = "";
+    }
     
 }
 

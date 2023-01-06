@@ -41,7 +41,7 @@
         </div>
 		
 		<%if(session.getAttribute("Member_acc")!=null){
-			out.print("<div class='R-out_btn'><input type='button' value='登出'  value='登出' id='logout'></div>");
+			out.print("<div class='R-out_btn'><input type='button' value='登出' id='logout'></div>");
 			}
 		  else{
 			out.print("<div class='R-out_btn'><input type='button' value='登出'  value='登出'  style='visibility:hidden;'></div>" );
