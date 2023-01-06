@@ -45,26 +45,37 @@
     </header>
     <div class="t-inmember">
         <h2>AI智慧喜會員中心個人資料</h2>
+		<form action="udmember.jsp" method="post">
+		  <%
+		sql = "SELECT * FROM member where Member_acc ='25' ";
+		ResultSet rs = con.createStatement().executeQuery(sql);
+		rs.next()
+		%>
         <div class="t-inmemberbox">
             <h3>帳號：</h3>
-            <p>A1234567889</p>
+            <p><%=rs.getString(1)%></p>
+        </div>
+		<div class="t-inmemberbox">
+            <h3>密碼：</h3>
+            <p><input type='text'  id='t-name' value="<%=rs.getString(3)%>"</p>
         </div>
         <div class="t-inmemberbox">
             <h3>暱稱 :</h3>
-            <input type='text'  id='t-name' value="王大壯" readonly=true>
+            <input type='text'  id='t-name' value="<%=rs.getString(3)%>" readonly=true>
         </div>
         <div class="t-inmemberbox">
             <h3>信箱 :</h3>
-            <input type="text" value="iwidiwdiw@yahoo.com.tw" id="t-email" readonly="true">
+            <input type="text" value="<%=rs.getString(6)%>" id="t-email" readonly="true">
         </div>
         <div class="t-inmemberbox">
             <h3>電話 :</h3>
-            <p>0555555555</p>
+            <p><%=rs.getString(2)%></p>
         </div>
         <div class="t-inmemberbox">
             <h3>地址：</h3>
-            <input type="text" value="320桃園市中壢區中北路200號" id="t-adress" readonly="true">
+            <input type="text" value="<%=rs.getString(5)%>" id="t-adress" readonly="true">
         </div>
+		<%%>
     
  
         
@@ -72,6 +83,7 @@
                 <input type="button" class='Y-btn' id="t-btn" onclick="change()" value="編輯/修改資料">
             
         </div>
+		</form>
 
         <div class="Y-btnbox">
             <a href="/Member_center.html">
