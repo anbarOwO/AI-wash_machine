@@ -65,6 +65,23 @@ body{
     background-color:rgb(246, 252, 224);
     
 }
+/*登出鍵*/
+.R-out_btn>input{
+    width: 120px;
+    height: 50px;
+    background-color:#63a5a5;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+  
+}
+.R-out_btn{
+    margin-right: 1%;
+    margin-top: 0.7%;
+    
+}
+
 
 @media (min-width:320px) and (max-width:720px){
     .R-header{
@@ -77,12 +94,26 @@ body{
     }
     .R-title{
         margin: 0 32%;
+        width:10%;
     }
     .R-imgmenu{
-        width:380%
+        width: 80px;
+        margin-left: 8px;
+        margin-top: 2%;
     }
     .R_side1,.R_side2,.R_side3,.R_side4{
         padding-top: 5%;
+    }
+    .R-out_btn{
+        margin-top: 2.5%;
+        margin-right: 10%; 
+      
+    }
+    .R-out_btn>input{
+        position: absolute;
+        z-index: 25;
+        width: 65px;
+        
     }
 }
 

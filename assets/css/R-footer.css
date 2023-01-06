@@ -65,7 +65,20 @@
 main {
     flex: 1;
 }
+/*底下的轉圈圈圖標*/
+.R-foot-change {
+    margin: 0.3% 0 0 0;
+    z-index: 1;
+    height: 100%;
+    cursor: pointer;
+    background-color: #91cae6;
+}
 
+.Y_change {
+    height: 80%;
+    width: 100%;
+    background-color: #91cae6;
+}
 
 @media (min-width:320px) and (max-width:720px){
     .R-footer{
@@ -75,6 +88,8 @@ main {
     .R-foot-cpic>img{
         height: 90%;
         width: 185%;
+        margin-left: -18%;
+        
     }
     .R-peopic{
         height: 65%;
@@ -82,12 +97,10 @@ main {
     }
 
     .R-foot-peopic{
-        margin: 3% 10%;
+        margin: 3% 3%;
     }
-    .R-mappic{
-        margin-top: 8%;
-        height: 80%;
-        width: 130%;
+    .R-foot-change{
+        margin-top: 1%;
     }
 
 }

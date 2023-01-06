@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<%@ page import = "java.io.*"%>
+<%@ page import = "java.sql.*, java.util.*"%>
+<%@ page language="java" pageEncoding="UTF-8"%>
+<%@include file="config.jsp" %>
 <html lang="en">
 
 <head>
@@ -14,32 +18,22 @@
 
 <body>
     <div class="t-inmember">
-        <h2>AI智慧喜會員中心個人資料</h2>
+        <h2>AI智慧喜會員登入</h2>
+	<form action="checkai.jsp" method="post">
         <div class="t-inmemberbox">
-            <h3>帳號：</h3>
-            <p>A1234567889</p>
+            <h3>請輸入帳號（身分證字號） :</h3>
+            <input type="text" placeholder="請輸入帳號（身分證字號）" id="t-logname" name="account" >
         </div>
         <div class="t-inmemberbox">
-            <h3>暱稱 :</h3>
-            <input type="text" placeholder="請輸入你的暱稱" id="t-name">
-        </div>
-        <div class="t-inmemberbox">
-            <h3>信箱 :</h3>
-            <input type="text" placeholder="請輸入你的信箱" id="t-email">
-        </div>
-        <!--<div class="t-inmemberbox">
-            <h3>電話 :</h3>
-            <input type="text" placeholder="請輸入你的電話" id="t-phone">
-        </div>-->
-        <div class="t-inmemberbox">
-            <h3>地址：</h3>
-            <input type="text" placeholder="請輸入你的地址" id="t-adress">
+            <h3>請輸入密碼 :</h3>
+            <input type="text" placeholder="請輸入你的密碼" id="t-logpassword" name="Member_pwd">
         </div>
         <div class="t-btnbox">
-            <a href="./T_payway.html">
-                <button class="t-btn" id="t-btn">繼續設定付款資料</button>
+            <a href="./L_menu.jsp">
+                <button class="t-btn" id="t-btn">完成</button>
             </a>
         </div>
+	</form>
     </div>
 </body>
 

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>填寫付款驗證碼</title>
     
-    <link rel="stylesheet" href="./assets/css/l-checkcode.css">
+    <link rel="stylesheet" href="./assets/css/order.css">
     <link rel="stylesheet" href="./assets/css/R-header.css">
     <link rel="stylesheet" href="./assets/css/R-bill.css">
     <link rel="stylesheet" href="./assets/css/R-footer.css">
@@ -15,7 +15,7 @@
     <script type="text/javascript" src="./assets/js/checkcode.js"></script>
     
 </head>
-<body>
+<body id="R_body">
     <div id="container">
         <div class="R_side" id="R_side">
             <div class="R_side1" id="R_side1">
@@ -42,41 +42,44 @@
                 <input type="button" value="登出" style="visibility:hidden;" value="登出">
             </div>
         </header>
-        <div class="container">
-            <main>
-                <div class="checkcode-box">
-
-                    <div class="code-button">
-                        <input type="submit" id="code" value="傳送"/>
+    
+        <main class="Y_container">
+            <div class="l-orderbox-option">
+                <div class="l-washway-box">
+                    <div class="l-washway-box-icon">
+                        <img src="./assets/img/l-howtoai.png" class="l-box-icon">
                     </div>
-                    <div class="code-text">
-                        <input type="text" id="input1" placeholder="請輸入左方驗證碼"/>
+                    <div class="l-washway-box-title">
+                        配送方式
                     </div>
-                
-                </div> 
-            
-                <div class="checkcode-checkbutton">
-                    <input type="button" id="yz" value="驗證"/>
                 </div>
-            
-            </main>
-        </div>
-        
+                <br>
+                <div class="l-back">
+                    <div class="l-go-back-text">
+                        回程
+                    </div>
+                    <select name="transport" class="l-washway">
+                        <optgroup label="集中櫃">
+                            <option>中原大學正門口(新中北路)</option>
+                            <option>中原大學體育園區</option>
+                            <option>普仁里里民活動中心</option>
+                            <option>特約合作711新壢門市</option>
+                            <option>特約合作全家中壢三和店</option>
+                        </optgroup>
+                        <option label="自行送洗">自行送洗</option>
+                        <option value="外送送洗">外送送洗</option>
+                        <option value="代領代收">代領代收</option>
+                    </select>
+                </div>
+            </div>
+            <div class="t-relinebarword">
+                <a href="./T_lineber.html">
+                    <button class="t-relineberbtn" id="t-relineberbtn">確定</button>
+                </a>
+            </div>
+        </main>
     </div>
         
-<<<<<<< HEAD
-        <footer class="R-footer">
-            <div class="R-foot-cpic">
-                <img src="./assets/img/R_footercloth.svg" alt="" class="R-cpic">
-            </div>
-            <div class="R-foot-peopic">
-                <img src="./assets/./img/R_footerpeople.png" alt="" class="R-peopic">
-            </div>
-            <div class="R-foot-mappic">
-                <img src="./assets/img/R_footerplaceholder.png" alt="" class="R-mappic">
-            </div>
-        </footer>
-=======
     <footer class="R-footer">
         <div class="R-foot-cpic" id="R-cpic">
             <img src="./assets/img/R_footercloth.svg" alt="" class="R-cpic">
@@ -91,10 +94,9 @@
             <img src="./assets/img/Y_help.png" alt="" class="Y_change">
         </div>
     </footer>
->>>>>>> 583fa58aebde7d560db5784cef8646018b7bf444
 
 
     </div>
-    <script type="text/javascript" src="./assets/js/nav.js"></script>
+    <script src="./assets/js/nav.js"></script>
 </body>
 </html>

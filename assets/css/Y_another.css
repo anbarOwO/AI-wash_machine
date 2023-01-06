@@ -1,0 +1,51 @@
+.container{
+    margin: 5% auto auto auto;
+    width: 60%;
+    text-align: center;
+    height: 450px;
+    font-size: 30px;
+    background-color: #d0f1f8;
+    border-radius: 10px;
+}
+/*請輸入代收臨時碼*/
+.another_title{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+/*輸入攔*/
+.another_Input>input{
+    width:60%;
+    height: 25px;
+}
+.another_Input{
+    padding-bottom: 5%;
+}
+
+/*確定按鈕*/
+.btn{
+    width:150px;
+    height: 30px;
+}
+
+/*顯示訂單編號*/
+.order_distinguish{
+    padding-top: 5%;
+}
+.order_num{
+    padding-top: 3%;
+}
+
+@media (min-width:320px) and (max-width:720px){
+    .container{
+        width: 75%;
+        font-size: 24px;
+        margin-top: 25%;
+        margin-bottom: 82%;
+        height: 300px;
+    }
+    .btn{
+        font-size: 18px;
+        margin-bottom: 12%;
+    }
+}
