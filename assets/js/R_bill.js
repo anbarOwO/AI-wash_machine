@@ -30,5 +30,9 @@ function randomnum4(){
     return number;
 }
 
+function sub(){
+    document.getElementById("frm").submit();
+}
+
 R_billnum.innerHTML = randomCoding()+"-"+randomnum();
 R_billfour.innerHTML = randomnum4();

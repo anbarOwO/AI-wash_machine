@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./assets/css/R-bill.css">
     <link rel="stylesheet" href="./assets/css/R-footer.css">
 </head>
-<body id="R_body">
+<body id="R_body" onload="sub();">
     <div id="container">
         <div class="R_side" id="R_side">
             <div class="R_side1" id="R_side1">
@@ -51,6 +51,7 @@
                 </div>
             </div>
                 <div class="R-billcontent">
+                    <form action="R_bill.jsp" method="post" id="frm">
                     <div class="R-billcon1">
                         <div class="R-con1-1">
                             發票號碼：<span id="R_billnum">XXXXXXXXX</span>
@@ -119,6 +120,7 @@
                             碳點數：6點
                         </div>
                     </div>
+                    </form>
                 </div>  
         </main>
     </div>  
