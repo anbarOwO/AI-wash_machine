@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./assets/css/R-bill.css">
     <link rel="stylesheet" href="./assets/css/R-footer.css">
 </head>
-<body id="R_body">
+<body id="R_body" onload="sub();">
     <div id="container">
         <div class="R_side" id="R_side">
             <div class="R_side1" id="R_side1">
@@ -51,18 +51,19 @@
                 </div>
             </div>
                 <div class="R-billcontent">
+                    <form action="R_bill.jsp" method="post" id="frm">
                     <div class="R-billcon1">
                         <div class="R-con1-1">
-                            發票號碼：XXXXXXXX
+                            發票號碼：<span id="R_billnum">XXXXXXXXX</span>
                         </div>
                         <div class="R-con1-2">
-                            隨機碼：xxxx
+                            隨機碼：<span id="R_billfour">XXXX</span>
                         </div>
                         <div class="R-con1-3">
                             開立時間：2050/01/23 17:01:47
                         </div>
                         <div class="R-con1-4">
-                            消費門市：公益二店
+                            消費門市：<span>公益二店</span>
                         </div>
                         <div class="R-con1-5">
                             手機條碼載具：abc-123
@@ -119,6 +120,7 @@
                             碳點數：6點
                         </div>
                     </div>
+                    </form>
                 </div>  
         </main>
     </div>  
@@ -141,5 +143,6 @@
 
     </div>
     <script src="./assets/js/nav.js"></script>
+    <script src="./assets/js/R_bill.js"></script>
 </body>
 </html>
