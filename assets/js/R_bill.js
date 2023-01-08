@@ -1,4 +1,5 @@
 var R_billnum = document.getElementById("R_billnum");
+var R_billfour = document.getElementById("R_billfour");
 
 function randomCoding(){
     var result = [];
@@ -20,4 +21,14 @@ function randomnum(){
     return number;
 }
 
+function randomnum4(){
+    let number="";
+    var n = 4;
+    for(var i=0;i<n;i++){
+        number+=Math.floor(Math.random()*10);
+    }
+    return number;
+}
+
 R_billnum.innerHTML = randomCoding()+"-"+randomnum();
+R_billfour.innerHTML = randomnum4();
