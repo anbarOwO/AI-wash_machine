@@ -176,10 +176,9 @@ body {
 
 /*送洗方式取回方式*/
 .t-lastbox {
-    background-color: rgba(249, 233, 204, 0.92);
+    background-color: rgba(249, 233, 204, 0.92);   
     width: 80%;
-    margin: 2% 0 10% 10%;
-    height: 400px;
+    margin: 2% 0 0% 10%;
     padding: 1% 0 0 2%;
     display: flex;
 }
@@ -292,7 +291,6 @@ body {
     .t-lastbox {
         width: 100%;
         margin: 2% 0 5% 1%;
-        height: 450px;
     }
 
     .t-inlastbox {
@@ -592,7 +590,7 @@ body {
 .t-lastbox {
     width: 100%;
     margin: 2% 0 5% 1%;
-    height: 450px;
+    height: 200px;
 }
 
 .t-inlastbox {
