@@ -191,11 +191,7 @@ body {
 .t-inlastbox2 {
     font-size: 5vmin;
     line-height: 40pt;
-    padding: 0% 0 0 50%;
-}
-
-.t-inlastbox2>p {
-    margin-left: -45%;
+    padding: 0% 0 0 25%;
 }
 
 /*-----------------------*/
@@ -286,6 +282,7 @@ body {
     .t-inmidbox {
         font-size: 5vmin;
         width: 50%;
+        margin-left: 3%;
     }
 
     .t-lastbox {
@@ -299,9 +296,8 @@ body {
         line-height: 40pt;
     }
 
-    .t-inlastbox2>p {
-        margin-left: -90%;
-        font-size: 4vmin;
+    .t-inlastbox2 {
+        padding: 0% 0 0 3%;
     }
     #progressBar span:nth-child(2) {
         width: 25px;
